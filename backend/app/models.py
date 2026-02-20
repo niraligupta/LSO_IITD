@@ -30,7 +30,6 @@ class Registration(models.Model):
     city = models.CharField(max_length=100)
     state = models.CharField(max_length=100)
     postal_code = models.CharField(max_length=10)
-    dietary_requirements = models.TextField(blank=True, null=True)
     agree_terms = models.BooleanField(default=False)
 
     created_at = models.DateTimeField(auto_now_add=True)
