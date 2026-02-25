@@ -16,7 +16,6 @@ export interface Participant {
     postalCode: string;
     status: 'pending' | 'shortlisted' | 'rejected';
     password: string;
-    userId: string;
     createdAt: string;
     adminNotification?: string;
 }
@@ -27,7 +26,7 @@ const defaultParticipants: Participant[] = [
         affiliation: 'IIT Delhi', designation: 'PhD Scholar', category: 'student',
         researchArea: 'Optimization', whatsapp: '9876543210', country: 'India',
         address: '123 Main St', state: 'Delhi', city: 'New Delhi', gender: 'male',
-        postalCode: '110016', status: 'pending', password: 'pass123', userId: 'rahul01',
+        postalCode: '110016', status: 'pending', password: 'pass123',
         createdAt: '2026-02-10',
     },
     {
@@ -35,7 +34,7 @@ const defaultParticipants: Participant[] = [
         affiliation: 'IISc Bangalore', designation: 'Assistant Professor', category: 'faculty',
         researchArea: 'Linear Programming', whatsapp: '9123456780', country: 'India',
         address: '456 Park Ave', state: 'Karnataka', city: 'Bangalore', gender: 'female',
-        postalCode: '560012', status: 'shortlisted', password: 'pass123', userId: 'priya02',
+        postalCode: '560012', status: 'shortlisted', password: 'pass123',
         createdAt: '2026-02-12',
     },
     {
@@ -43,7 +42,7 @@ const defaultParticipants: Participant[] = [
         affiliation: 'NIT Trichy', designation: 'Post-doctoral', category: 'student',
         researchArea: 'Heuristics', whatsapp: '9988776655', country: 'India',
         address: '789 College Rd', state: 'Tamil Nadu', city: 'Tiruchirappalli', gender: 'male',
-        postalCode: '620015', status: 'rejected', password: 'pass123', userId: 'amit03',
+        postalCode: '620015', status: 'rejected', password: 'pass123',
         createdAt: '2026-02-15',
     },
     {
@@ -51,13 +50,12 @@ const defaultParticipants: Participant[] = [
         affiliation: 'BITS Pilani', designation: 'Industry Analyst', category: 'industry',
         researchArea: 'Robust Optimization', whatsapp: '9871234567', country: 'India',
         address: '101 Tech Park', state: 'Rajasthan', city: 'Pilani', gender: 'female',
-        postalCode: '333031', status: 'pending', password: 'pass123', userId: 'sneha04',
+        postalCode: '333031', status: 'pending', password: 'pass123',
         createdAt: '2026-02-18',
     },
 ];
 export const ADMIN_CREDENTIALS = {
     email: 'admin@lso.com',
-    userId: 'admin',
     password: 'admin123',
 };
 export function getParticipants(): Participant[] {
@@ -98,17 +96,17 @@ export function updateParticipant(id: string, data: Partial<Participant>) {
     }
     return participants;
 }
-export function findParticipantByLogin(email: string, userId: string, password: string): Participant | null {
+export function findParticipantByLogin(email: string, password: string): Participant | null {
     const participants = getParticipants();
-    return participants.find((p) => p.email === email && p.userId === userId && p.password === password) || null;
+    return participants.find((p) => p.email === email && p.password === password) || null;
 }
 export function findParticipantByEmail(email: string): Participant | null {
     const participants = getParticipants();
     return participants.find((p) => p.email === email) || null;
 }
-export function changePassword(userId: string, oldPassword: string, newPassword: string): boolean {
+export function changePassword(email: string, oldPassword: string, newPassword: string): boolean {
     const participants = getParticipants();
-    const idx = participants.findIndex((p) => p.userId === userId && p.password === oldPassword);
+    const idx = participants.findIndex((p) => p.email === email && p.password === oldPassword);
     if (idx === -1) return false;
     participants[idx].password = newPassword;
     saveParticipants(participants);

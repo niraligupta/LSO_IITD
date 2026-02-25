@@ -35,9 +35,9 @@ const Login = () => {
             return;
         }
         // Check participant credentials
-        const participant = findParticipantByLogin(formData.email, formData.userId, formData.password);
+        const participant = findParticipantByLogin(formData.email, formData.password);
         if (participant) {
-            sessionStorage.setItem('lso_user', JSON.stringify({ email: participant.email, userId: participant.userId, role: 'user', participantId: participant.id }));
+            sessionStorage.setItem('lso_user', JSON.stringify({ email: participant.email, role: 'user', participantId: participant.id }));
             toast({ title: 'Login Successful', description: 'Redirecting to dashboard…' });
             navigate('/dashboard');
             return;
@@ -54,7 +54,7 @@ const Login = () => {
             toast({ title: 'Email Not Found', description: 'No account found with this email address.', variant: 'destructive' });
             return;
         }
-        // Mock: generate token and redirect
+
         const token = btoa(`${participant.email}:${Date.now()}`);
         sessionStorage.setItem('lso_reset_token', JSON.stringify({ email: participant.email, token }));
         toast({ title: 'Reset Link Sent', description: 'Redirecting to reset password page… (demo mode)' });
