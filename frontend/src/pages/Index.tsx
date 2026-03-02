@@ -9,6 +9,7 @@ import Registration from '@/components/Registration';
 import Venue from '@/components/Venue';
 import CoreTeam from '@/components/CoreTeam';
 import Footer from '@/components/Footer';
+import Login from '@/components/login';
 
 const Index = () => {
   return (
@@ -24,6 +25,7 @@ const Index = () => {
       <Venue />
       <CoreTeam />
       <Footer />
+      {/* <Login /> */}
     </div>
   );
 };
