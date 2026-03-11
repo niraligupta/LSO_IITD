@@ -138,8 +138,11 @@
     @apply inline-flex items-center gap-2 bg-foreground/10 backdrop-blur-sm text-white px-4 py-2 rounded-full text-sm;
   }
 
-  .hero-overlay {
+  /* .hero-overlay {
     @apply absolute inset-0 bg-gradient-to-b from-foreground/80 via-foreground/70 to-foreground/80;
+  } */
+  .hero-overlay {
+    @apply absolute inset-0 bg-gradient-to-b from-foreground/40 via-foreground/30 to-foreground/40;
   }
 
   .nav-link {

@@ -34,9 +34,19 @@ const Hero = () => {
       className="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden"
     >
       {/* Background Image */}
-      <div
+      {/* <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: 'url(/images/iitdelhi.jpg)' }}
+      /> */}
+
+      <div
+        className="absolute inset-0 bg-center bg-cover bg-no-repeat"
+        style={{
+          backgroundImage: "url('/images/iitdelhi.jpg')",
+          filter: "none",
+          backdropFilter: "none",
+          opacity: 1
+        }}
       />
 
       {/* Overlays */}
@@ -125,7 +135,8 @@ const Hero = () => {
               {features.map((item, index) => (
                 <div
                   key={item.label}
-                  className="group bg-card/10 backdrop-blur-md border border-primary-foreground/10 rounded-2xl p-6 hover:bg-card/20 transition-all duration-300 hover:translate-x-2"
+                  className="group bg-foreground/30 border border-primary-foreground/10 rounded-2xl p-6 hover:bg-foreground/40 transition-all duration-300 hover:translate-x-2"
+                  // className="group bg-card/10 backdrop-blur-md border border-primary-foreground/10 rounded-2xl p-6 hover:bg-card/20 transition-all duration-300 hover:translate-x-2"
                   style={{ animationDelay: `${0.5 + index * 0.1}s` }}
                 >
                   <div className="flex items-center gap-5">
