@@ -147,7 +147,7 @@ const About = () => {
                 asChild
               >
                 <a href="/registration">
-                  Register for LSO 2026
+                  Registration starts soon for LSO 2026
                 </a>
               </Button>
             </div>

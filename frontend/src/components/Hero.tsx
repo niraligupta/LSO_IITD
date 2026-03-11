@@ -112,8 +112,12 @@ const Hero = () => {
                 className="bg-red-500 hover:bg-red-300 text-accent-foreground font-semibold px-8 shadow-glow"
                 asChild
               >
-                <a href="/registration" className="inline-flex items-center gap-2">
+                {/* <a href="/registration" className="inline-flex items-center gap-2">
                   Register Now
+                  <ArrowRight className="w-4 h-4" />
+                </a> */}
+                <a href="/" className="inline-flex items-center gap-2">
+                  Registration starts soon
                   <ArrowRight className="w-4 h-4" />
                 </a>
               </Button>
