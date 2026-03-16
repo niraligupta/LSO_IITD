@@ -1,17 +1,19 @@
 import { GraduationCap, BookOpen, Briefcase, Users } from 'lucide-react';
 
 const topics = [
-  'Optimization Modeling',
-  'Polyhedral theory',
-  'Lagrangean relaxation',
-  'Branch-and-Bound, Branch-and-Cut, and Branch-and-Price',
-  'Cutting plane methods',
-  'Benders decomposition',
-  'Column Generation',
-  'Nonlinear optimization',
-  'Robust optimization',
+  'IP Modeling - Foundational',
+  'Valid Inequalities',
+  'Branch-and-cut',
+  'Nonlinear Optimization',
+  'Benders Decomposition',
+  'Branch-and-Bound',
+  'Expectation Minimization & Chance-constrained Optimization',
+  'Semidefinite Programming',
+  'Logic-based Benders',
   'Heuristic methods',
-  'Approximation algorithms',
+  'Dantzig-Wolfe reformulation/Column Genereration',
+  'Lagrangean Relaxation',
+
 ];
 
 const audiences = [
