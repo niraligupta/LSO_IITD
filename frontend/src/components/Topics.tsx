@@ -1,17 +1,18 @@
 import { GraduationCap, BookOpen, Briefcase, Users } from 'lucide-react';
 
 const topics = [
-  'IP Modeling - Foundational',
+  'Modeling Optimization Problems',
   'Valid Inequalities',
   'Branch-and-cut',
   'Nonlinear Optimization',
-  'Benders Decomposition and Sequential Decision Making',
+  'Benders Decomposition ',
+  'Sequential Decision Making',
   'Branch-and-Bound',
   'Expectation Minimization & Chance-constrained Optimization',
   'Semidefinite Programming',
-  'Logic-based Benders',
-  'Heuristic and Stochasticity',
-  'Dantzig-Wolfe reformulation/Column Genereration',
+  'Heuristic',
+  'Robust Optimazation',
+  'Column Genereration',
   'Lagrangean Relaxation',
 
 ];

@@ -77,9 +77,12 @@ const Registration = () => {
 
             <Card className="p-6 mb-6 border-destructive/50 bg-destructive/5">
               <h4 className="font-bold text-destructive mb-2">Registrations  opened </h4>
-              <p className="text-sm text-muted-foreground">
+              {/* <p className="text-sm text-muted-foreground">
                 Please use latest version of Chrome, Edge, Safari, Brave etc. (but not Firefox). It is a two-step procedure. After filling your details, you will receive an email with a payment link. Registration is complete only after payment is successful.
-              </p>
+              </p> */}
+
+
+
               <p className="text-sm text-muted-foreground mt-4">
                 Registrations for the early bird close on 28 March 2026.
               </p>
@@ -138,7 +141,7 @@ const Registration = () => {
                   ))}
                 </ul>
               </Card>
-
+              {/* 
               <Card className="p-4">
                 <h4 className="font-semibold mb-3 flex items-center gap-2">
                   <X className="h-5 w-5 text-destructive" />
@@ -149,7 +152,7 @@ const Registration = () => {
                     <li key={item} className="text-muted-foreground">{item}</li>
                   ))}
                 </ul>
-              </Card>
+              </Card> */}
 
               <Card className="p-4">
                 <h4 className="font-semibold mb-3 flex items-center gap-2">

@@ -146,8 +146,8 @@ const About = () => {
                 className="bg-red-500 hover:bg-red-400 text-accent-foreground font-semibold shadow-glow"
                 asChild
               >
-                <a href="/registration">
-                  Registration starts soon for LSO 2026
+                <a href="#">
+                  Register Now
                 </a>
               </Button>
             </div>

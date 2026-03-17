@@ -88,17 +88,20 @@ const Venue = () => {
               className="w-full h-48 object-cover rounded-lg mb-4"
             />
             <h4 className="text-xl font-bold mb-2">On-Campus Accommodation</h4>
-            <br></br>
-            <p className="font-semibold">
+            {/* <br></br> */}
+            {/* <p className="font-semibold">
               To be updated soon
-            </p>
-            {/* <p className="text-muted-foreground mb-4">
-              Shared rooms in hostels are available from June 15th to June 22nd. Please reserve your rooms before the registration deadline.
+            </p> */}
+            <p className="text-muted-foreground mb-4">
+              Limited number of on-campus hostel accommodation are available on sharing basis.
             </p>
             <div className="space-y-2">
-              <p className="font-semibold">Rs 300 per night (excluding GST)</p>
+              <p className="font-semibold">Rs 750 per day (including all meals + Rs. 60 per day for badding)</p>
               <p className="text-sm text-muted-foreground">Walking distance to venue</p>
-            </div> */}
+            </div>
+            <div className="space-y-2">
+              <p className="font-semibold">Note: <span className="text-sm text-muted-foreground"> Accommodation changes are including in the conference registration fee.</span></p>
+            </div>
           </Card>
 
           <Card className="p-6">
