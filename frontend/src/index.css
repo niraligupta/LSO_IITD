@@ -149,7 +149,7 @@
     @apply text-foreground/80 hover:text-foreground transition-colors font-medium text-sm;
   }
 
-  .schedule-table {
+  /* .schedule-table {
     @apply w-full text-sm;
   }
 
@@ -159,7 +159,87 @@
 
   .schedule-table td {
     @apply border border-border px-3 py-2;
+  } */
+
+
+
+  .schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', sans-serif;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
   }
+
+
+  .schedule-table thead {
+    background: linear-gradient(135deg, #b30000b9, #ff4d4d);
+    color: white;
+  }
+
+  .schedule-table th {
+    padding: 14px;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    border-right: 1px solid rgba(255, 255, 255, 0.39);
+  }
+
+  /* Body rows */
+  .schedule-table td {
+    padding: 12px;
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid #f1f1f1;
+  }
+
+  /* Alternating rows */
+  .schedule-table tbody tr:nth-child(even) {
+    background-color: #fff5f5;
+  }
+
+  .schedule-table tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+
+  /* Hover effect */
+  .schedule-table tbody tr:hover {
+    background-color: #ffe6e6;
+    transition: 0.3s;
+  }
+
+  /* Section rows (like "Modeling Optimization Problems") */
+  .schedule-table .section-row td {
+    background: linear-gradient(90deg, #ff1a1a, #cc0000);
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    padding: 14px;
+  }
+
+  /* Special cells like Tea/Lunch */
+  .schedule-table td:contains("Tea"),
+  .schedule-table td:contains("Lunch") {
+    background-color: #ffe6e6;
+    font-weight: 600;
+    color: #990000;
+  }
+
+  /* Rounded corners fix */
+  .schedule-table tr:first-child th:first-child {
+    border-top-left-radius: 12px;
+  }
+
+  .schedule-table tr:first-child th:last-child {
+    border-top-right-radius: 12px;
+  }
+
+
+
+
+
 
   .timeline-item {
     @apply relative pl-8 pb-8 border-l-2 border-primary/30 last:border-l-0;

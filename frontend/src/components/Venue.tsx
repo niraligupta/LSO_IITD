@@ -51,7 +51,7 @@ const Venue = () => {
                     Exact Venue
                   </h5>
                   <p className="text-muted-foreground">
-                    Classroom LH 101<br />
+
                     Lecture Hall Complex (LHC)<br />
                     IIT Delhi Campus
                   </p>
@@ -88,13 +88,17 @@ const Venue = () => {
               className="w-full h-48 object-cover rounded-lg mb-4"
             />
             <h4 className="text-xl font-bold mb-2">On-Campus Accommodation</h4>
-            <p className="text-muted-foreground mb-4">
+            <br></br>
+            <p className="font-semibold">
+              To be updated soon
+            </p>
+            {/* <p className="text-muted-foreground mb-4">
               Shared rooms in hostels are available from June 15th to June 22nd. Please reserve your rooms before the registration deadline.
             </p>
             <div className="space-y-2">
               <p className="font-semibold">Rs 300 per night (excluding GST)</p>
               <p className="text-sm text-muted-foreground">Walking distance to venue</p>
-            </div>
+            </div> */}
           </Card>
 
           <Card className="p-6">
@@ -104,13 +108,17 @@ const Venue = () => {
               className="w-full h-48 object-cover rounded-lg mb-4"
             />
             <h4 className="text-xl font-bold mb-2">Guest House Accommodation</h4>
-            <p className="text-muted-foreground mb-4">
+            <br></br>
+            <p className="font-semibold">
+              To be updated soon
+            </p>
+            {/* <p className="text-muted-foreground mb-4">
               A limited number of guest house accommodations on campus are available for speakers and other attendees, offering comfortable stays in a serene environment.
             </p>
             <div className="space-y-2">
               <p className="text-sm text-muted-foreground">Priority for speakers and invited guests</p>
               <p className="text-sm text-muted-foreground">Limited availability - request early</p>
-            </div>
+            </div> */}
           </Card>
         </div>
 

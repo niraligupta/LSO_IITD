@@ -7,10 +7,11 @@ import {
   AccordionTrigger,
 } from '@/components/ui/accordion';
 
+
 const fees = [
-  { category: 'Students', description: 'PhD, Post-doctoral researchers, postgraduate or graduate', fee: '6,000' },
-  { category: 'Faculty members', description: 'Universities or colleges in India', fee: '12,000' },
-  { category: 'Practitioners and all others', description: 'Industry professionals and international participants', fee: '27,000' },
+  { category: 'Students', description: 'PhD, Post-doctoral researchers, postgraduate or graduate', early_fees: '7,000', fee: '10,000' },
+  { category: 'Faculty members', description: 'Universities or colleges in India', early_fees: '14,000', fee: '20,000' },
+  { category: 'Practitioners and all others', description: 'Industry professionals and international participants', early_fees: '30,000', fee: '42,000' },
 ];
 
 const included = [
@@ -35,15 +36,15 @@ const requiredDocs = [
 ];
 
 const importantDates = [
-  { date: 'April , 2026', event: 'Registration Opens' },
-  { date: 'May , 2026', event: 'Registration Closes' },
+  { date: 'March , 2026', event: 'Registration Opens' },
+  { date: '28 March , 2026', event: 'Registration Closes' },
   { date: 'June 01, 2026', event: 'School Starts' },
 ];
 
 const faqs = [
   {
     question: 'When is the last date for registration?',
-    answer: 'Registrations end on 3rd of June 2026.',
+    answer: 'The early bird registration ends on 28 March 2026.',
   },
   {
     question: 'Can I get a refund if I cancel my registration?',
@@ -75,12 +76,12 @@ const Registration = () => {
             </p>
 
             <Card className="p-6 mb-6 border-destructive/50 bg-destructive/5">
-              <h4 className="font-bold text-destructive mb-2">Registrations will open</h4>
+              <h4 className="font-bold text-destructive mb-2">Registrations  opened </h4>
               <p className="text-sm text-muted-foreground">
                 Please use latest version of Chrome, Edge, Safari, Brave etc. (but not Firefox). It is a two-step procedure. After filling your details, you will receive an email with a payment link. Registration is complete only after payment is successful.
               </p>
               <p className="text-sm text-muted-foreground mt-4">
-                Registrations will open  on June 3, 2026.
+                Registrations for the early bird close on 28 March 2026.
               </p>
             </Card>
 
@@ -101,7 +102,8 @@ const Registration = () => {
                 <thead>
                   <tr className="border-b border-border">
                     <th className="text-left py-3 font-semibold">Category</th>
-                    <th className="text-right py-3 font-semibold">Fee (Rs)</th>
+                    <th className="text-right py-3 font-semibold"> Early Bird Fee (Rs) till 28 March 2026</th>
+                    <th className="text-right py-3 font-semibold">  Fee (Rs)</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -111,6 +113,7 @@ const Registration = () => {
                         <div className="font-medium">{item.category}</div>
                         <div className="text-sm text-muted-foreground">{item.description}</div>
                       </td>
+                      <td className="py-3 text-right font-semibold">{item.early_fees}</td>
                       <td className="py-3 text-right font-semibold">{item.fee}</td>
                     </tr>
                   ))}
@@ -181,7 +184,7 @@ const Registration = () => {
 
         {/* Payment Information */}
         <Card className="p-6 mt-12">
-          <h3 className="text-xl font-bold mb-4">Payment Information</h3>
+          {/* <h3 className="text-xl font-bold mb-4">Payment Information</h3>
           <p className="text-muted-foreground mb-4">
             Please go to the registration section, fill in your details, and submit the form. After registration, you will receive an email with your username, password, and login link. Once you log in, you can check your application status on the dashboard.
           </p>
@@ -192,11 +195,11 @@ const Registration = () => {
 
           <p className="text-muted-foreground mb-4">
             If you are selected for the workshop, you will receive a payment link via email or it will be available on your login dashboard. Payment can be made using a credit/debit card, net banking, or UPI.
-          </p>
+          </p> */}
 
 
           <p className="text-muted-foreground">
-            For any queries regarding registration, please contact: <a href="mailto:pkk@iitd.ac.in" className="text-red-500 hover:underline">pkk@iitd.ac.in</a>
+            For any queries regarding registration, please contact: <a href="mailto:lso2026@admin.iitd.ac.in" className="text-red-500 hover:underline">lso2026@admin.iitd.ac.in</a>
           </p>
         </Card>
 
