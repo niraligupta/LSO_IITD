@@ -69,7 +69,7 @@ const About = () => {
                 {targetAudience.map((item) => (
                   <div
                     key={item.label}
-                    className="flex items-center gap-2 text-sm text-muted-foreground"
+                    className="flex items-center gap-2 text-base text-muted-foreground"
                   >
                     <item.icon className="w-4 h-4 text-red-500 flex-shrink-0" />
                     <span>{item.label}</span>
@@ -87,7 +87,7 @@ const About = () => {
                 What You'll Learn
               </h3>
               <div className="grid sm:grid-cols-2 gap-3">
-                {['Integer Optimization', 'Linear Programming', 'Nonlinear Methods', 'Real-world Applications'].map((topic) => (
+                {['Integer Optimization', 'Linear  Optimization', 'Nonlinear Optimization', 'Real-world Applications'].map((topic) => (
                   <div
                     key={topic}
                     className="flex items-center gap-3 bg-card p-4 rounded-xl border border-border hover:border-accent/30 transition-colors"
@@ -124,33 +124,10 @@ const About = () => {
                 ))}
               </div>
 
-              {/* <div className="flex flex-wrap gap-2">
-                {pastEditions.map((edition) => (
-                  <Link key={edition.year} href={edition.url}>
-                    <div
-                      key={edition.year}
-                      className="px-4 py-2 bg-primary/5 rounded-full border border-primary/10"
-                    >
-                      <span className="font-display font-semibold text-foreground">{edition.year}</span>
-                      <span className="text-muted-foreground"> • {edition.location}</span>
-                    </div>
-                  </Link>
-                ))}
-              </div> */}
+
             </div>
 
-            {/* CTA */}
-            <div className="pt-4">
-              <Button
-                size="lg"
-                className="bg-red-500 hover:bg-red-400 text-accent-foreground font-semibold shadow-glow"
-                asChild
-              >
-                <a href="#">
-                  Register Now
-                </a>
-              </Button>
-            </div>
+
           </div>
         </div>
       </div>

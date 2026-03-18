@@ -1,5 +1,6 @@
 import { Calendar, Check, X, FileText } from 'lucide-react';
 import { Card } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
 import {
   Accordion,
   AccordionContent,
@@ -11,45 +12,18 @@ import {
 const fees = [
   { category: 'Students', description: 'PhD, Post-docs researchers, postgraduate or graduate', early_fees: '7,000', fee: '10,000' },
   { category: 'Faculty members', description: 'Universities or colleges in India', early_fees: '14,000', fee: '20,000' },
-  { category: 'Practitioners and all others', description: 'Industry professionals and international participants', early_fees: '30,000', fee: '42,000' },
+  { category: 'Industry Proffessionals/Government Officers ', description: 'R&D engineers, Oprations managers, Policymakers, etc.', early_fees: '30,000', fee: '42,000' },
 ];
 
-const included = [
-  'All sessions and workshops',
-  'Course materials',
-  'Lunch and refreshments during breaks',
-  'Certificate of participation',
-];
 
-const notIncluded = [
-  'Accommodation',
-  'Travel to/from venue',
-  'Breakfast and dinner',
-  'Personal expenses',
-];
 
-const requiredDocs = [
-  'ID proof',
-  'Student/Faculty ID card (if applicable)',
-  'Payment confirmation',
-  'Authorization letter (if sponsored)',
-];
-
-const importantDates = [
-  { date: 'March , 2026', event: 'Registration Opens' },
-  { date: '28 March , 2026', event: 'Registration Closes' },
-  { date: 'June 01, 2026', event: 'School Starts' },
-];
 
 const faqs = [
   {
     question: 'When is the last date for registration?',
-    answer: 'The early bird registration ends on 28 March 2026.',
+    answer: 'The early bird registration ends on 28 March 2026 and the late registration ends on 15 April 2026.',
   },
-  {
-    question: 'Can I get a refund if I cancel my registration?',
-    answer: 'No refunds will be entertained if one does not attend the event.',
-  },
+
   {
     question: 'Can I register for specific days only?',
     answer: 'The summer school is designed as a comprehensive program, and partial registration is not available. Participants are expected to attend the full program.',
@@ -72,27 +46,43 @@ const Registration = () => {
           <div>
             <h3 className="text-2xl font-bold mb-4">Registration Details</h3>
             <p className="text-muted-foreground mb-4">
-              Registration includes participation in all sessions, course materials, and refreshments during the program. It does not include accommodation, travel, lunch or dinner.
+              Registration includes participation in all sessions, course materials, certificate, and lunch/refreshments during the program. It does not include accommodation, travel, breakfast, and dinner.
             </p>
-
+            <p className="text-muted-foreground mb-4">Limited number of on-campus hostel accommodation are available on sharing basis for students.</p>
             <Card className="p-6 mb-6 border-destructive/50 bg-destructive/5">
-              <h4 className="font-bold text-destructive mb-2">Registrations  opened </h4>
-              {/* <p className="text-sm text-muted-foreground">
-                Please use latest version of Chrome, Edge, Safari, Brave etc. (but not Firefox). It is a two-step procedure. After filling your details, you will receive an email with a payment link. Registration is complete only after payment is successful.
-              </p> */}
+              <h4 className="font-bold text-destructive mb-2">Registrations has started! </h4>
+
 
 
 
               <p className="text-sm text-muted-foreground mt-4">
-                Registrations for the early bird close on 28 March 2026.
+                Early bird registration closes on <span className='font-bold'>28 March 2026.</span>
+              </p>
+              <p className="text-sm text-muted-foreground mt-4">
+                Late registration closes on <span className='font-bold'>15 April 2026.</span>
               </p>
             </Card>
 
-            <img
-              src="/images/regis.webp"
-              alt="Professional academic setting"
-              className="rounded-lg shadow-lg w-full"
-            />
+
+            <Card className="p-6">
+              <img
+                src="/images/iit_hostel.jpg"
+                alt="IIT Delhi campus view"
+                className="w-full h-48 object-cover rounded-lg mb-4"
+              />
+              <h4 className="text-xl font-bold mb-2">On-Campus Accommodation (Student Only)</h4>
+
+              <p className="text-muted-foreground mb-4">
+                Limited number of on-campus hostel accommodation are available on sharing basis.
+              </p>
+              <div className="space-y-2">
+                <p className="font-semibold">Rs 750 per day (including all meals + Rs. 60 per day for bedding)</p>
+                <p className="text-sm text-muted-foreground">Walking distance to venue</p>
+              </div>
+              <div className="space-y-2">
+                <p className="font-semibold">Note: <span className="text-sm text-muted-foreground"> Accommodation charges are not included in the conference registration fee.</span></p>
+              </div>
+            </Card>
           </div>
 
           {/* Right Column */}
@@ -105,8 +95,8 @@ const Registration = () => {
                 <thead>
                   <tr className="border-b border-border">
                     <th className="text-left py-3 font-semibold">Category</th>
-                    <th className="text-right py-3 font-semibold"> Early Bird Fee (Rs) till 28 March 2026</th>
-                    <th className="text-right py-3 font-semibold">  Fee (Rs)</th>
+                    <th className="text-right py-3 font-semibold"> Early Bird Fee (Rs) <br></br>(until 28 March 2026)</th>
+                    <th className="text-right py-3 font-semibold">    Late Fee (Rs)<br></br>(until 15 April 2026)</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -125,86 +115,34 @@ const Registration = () => {
             </div>
 
             <p className="text-xs text-muted-foreground mb-8">
-              * Registration fees do not include accommodation, travel and food.
+              * Registration fees does not include accommodation, travel and food.
             </p>
+            {/* CTA */}
+            <div className="pt-4">
+              <Button
+                size="lg"
+                className="bg-red-500 hover:bg-red-400 text-accent-foreground font-semibold shadow-glow"
+                asChild
+              >
+                <a href="#">
+                  Register Now
+                </a>
+              </Button>
+            </div>
+            <div className="grid md:grid-cols-1 gap-8 mb-12">
+              <Card className="p-6 mt-12">
 
-            {/* What's Included / Not Included / Required Docs */}
-            <div className="grid md:grid-cols-3 gap-6 mb-8">
-              <Card className="p-4">
-                <h4 className="font-semibold mb-3 flex items-center gap-2">
-                  <Check className="h-5 w-5 text-primary" />
-                  What's Included
-                </h4>
-                <ul className="text-sm space-y-2">
-                  {included.map((item) => (
-                    <li key={item} className="text-muted-foreground">{item}</li>
-                  ))}
-                </ul>
-              </Card>
-              {/* 
-              <Card className="p-4">
-                <h4 className="font-semibold mb-3 flex items-center gap-2">
-                  <X className="h-5 w-5 text-destructive" />
-                  Not Included
-                </h4>
-                <ul className="text-sm space-y-2">
-                  {notIncluded.map((item) => (
-                    <li key={item} className="text-muted-foreground">{item}</li>
-                  ))}
-                </ul>
-              </Card> */}
 
-              <Card className="p-4">
-                <h4 className="font-semibold mb-3 flex items-center gap-2">
-                  <FileText className="h-5 w-5 text-primary" />
-                  Required Documents
-                </h4>
-                <ul className="text-sm space-y-2">
-                  {requiredDocs.map((item) => (
-                    <li key={item} className="text-muted-foreground">{item}</li>
-                  ))}
-                </ul>
+                <p className="text-muted-foreground">
+                  For any queries regarding registration, please contact: <a href="mailto:lso2026@admin.iitd.ac.in" className="text-red-500 hover:underline">lso2026@admin.iitd.ac.in</a>
+                </p>
               </Card>
+
             </div>
           </div>
         </div>
 
-        {/* Important Dates */}
-        <div className="mt-16">
-          <h3 className="text-2xl font-bold mb-8 text-center">Important Dates</h3>
-          <div className="flex flex-wrap justify-center gap-8">
-            {importantDates.map((item) => (
-              <div key={item.event} className="text-center">
-                <div className="inline-flex items-center gap-2 mb-2">
-                  <Calendar className="h-5 w-5 text-red-400" />
-                  <span className="font-bold text-red-500">{item.date}</span>
-                </div>
-                <p className="text-muted-foreground">{item.event}</p>
-              </div>
-            ))}
-          </div>
-        </div>
 
-        {/* Payment Information */}
-        <Card className="p-6 mt-12">
-          {/* <h3 className="text-xl font-bold mb-4">Payment Information</h3>
-          <p className="text-muted-foreground mb-4">
-            Please go to the registration section, fill in your details, and submit the form. After registration, you will receive an email with your username, password, and login link. Once you log in, you can check your application status on the dashboard.
-          </p>
-
-          <p className="text-muted-foreground mb-4">
-            If your application status shows “Pending,” please wait for a few days while your application is being reviewed.
-          </p>
-
-          <p className="text-muted-foreground mb-4">
-            If you are selected for the workshop, you will receive a payment link via email or it will be available on your login dashboard. Payment can be made using a credit/debit card, net banking, or UPI.
-          </p> */}
-
-
-          <p className="text-muted-foreground">
-            For any queries regarding registration, please contact: <a href="mailto:lso2026@admin.iitd.ac.in" className="text-red-500 hover:underline">lso2026@admin.iitd.ac.in</a>
-          </p>
-        </Card>
 
         {/* FAQs */}
         <div className="mt-12">

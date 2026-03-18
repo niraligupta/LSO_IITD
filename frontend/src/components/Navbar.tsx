@@ -9,6 +9,7 @@ import { Button } from '@/components/ui/button';
 const navLinks = [
   { href: '#home', label: 'Home' },
   { href: '#about', label: 'About' },
+  { href: '#important', label: 'Important Dates' },
   { href: '#topics', label: 'Topics' },
   { href: '#speakers', label: 'Speakers' },
   { href: '#program', label: 'Program' },
@@ -38,15 +39,21 @@ const Navbar = () => {
     >
       <div className="section-container">
         <div className="flex items-center justify-between h-16">
+          {/* <a
+            href="#home"
+            className={`text-lg font-display font-bold transition-colors duration-300 ${scrolled ? 'text-foreground' : 'text-white'
+              }`}
+          >
+            LSO Summer School 2026 (June 1-6)
+
+          </a> */}
           <a
             href="#home"
             className={`text-lg font-display font-bold transition-colors duration-300 ${scrolled ? 'text-foreground' : 'text-white'
               }`}
           >
-            LSO Summer School 2026
-
+            LSO Summer School <span className="text-red-500">2026</span> <span className="opacity-80">(June 1–6)</span>
           </a>
-
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-6">
             {navLinks.map((link) => (

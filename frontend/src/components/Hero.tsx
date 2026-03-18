@@ -5,7 +5,7 @@ import {
   Sparkles,
   Target,
   Lightbulb,
-  ChevronDown,
+  ChevronDown, ArrowDownToLine
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -33,19 +33,14 @@ const Hero = () => {
       id="home"
       className="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden"
     >
-      {/* Background Image */}
-      {/* <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: 'url(/images/iitdelhi.jpg)' }}
-      /> */}
-
+      \
       <div
         className="absolute inset-0 bg-center bg-cover bg-no-repeat"
         style={{
           backgroundImage: "url('/images/iitdelhi.jpg')",
-          filter: "none",
-          backdropFilter: "none",
-          opacity: 1
+          // filter: "none",
+          // backdropFilter: "none",
+          // opacity: 1
         }}
       />
 
@@ -85,7 +80,7 @@ const Hero = () => {
             <div className="space-y-4 animate-fade-up" style={{ animationDelay: '0.1s' }}>
               <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-bold text-primary-foreground leading-[1.1]">
                 Large Scale
-                <span className="block text-red-500">Optimization</span>
+                <span className="block text-white">Optimization</span>
               </h1>
               <p className="text-2xl md:text-3xl font-display font-medium text-primary-foreground/80">
                 Summer School 2026 <span>(6th Edition)</span>
@@ -104,7 +99,7 @@ const Hero = () => {
 
             {/* CTA */}
             <div
-              className="flex flex-wrap gap-4 animate-fade-up"
+              className="flex items-center gap-4 animate-fade-up"
               style={{ animationDelay: '0.3s' }}
             >
               <Button
@@ -112,12 +107,9 @@ const Hero = () => {
                 className="bg-red-500 hover:bg-red-300 text-accent-foreground font-semibold px-8 shadow-glow"
                 asChild
               >
-                {/* <a href="/registration" className="inline-flex items-center gap-2">
-                  Register Now
-                  <ArrowRight className="w-4 h-4" />
-                </a> */}
+
                 <a href="/" className="inline-flex items-center gap-2">
-                  Registration starts soon
+                  Register Now
                   <ArrowRight className="w-4 h-4" />
                 </a>
               </Button>
@@ -130,6 +122,23 @@ const Hero = () => {
               >
                 <a href="#program">Explore Program</a>
               </Button>
+
+              <Button
+                size="lg"
+                className="bg-red-500 hover:bg-red-300 text-accent-foreground font-semibold px-8 shadow-glow"
+                asChild
+              >
+
+                <a
+                  href="/LSO2026_brochure_QR.pdf"
+                  download
+                  className="inline-flex items-center gap-2"
+                >
+                  Download Brochure
+                  <ArrowDownToLine className="w-4 h-4" />
+                </a>
+              </Button>
+
             </div>
           </div>
 
@@ -161,18 +170,7 @@ const Hero = () => {
               ))}
             </div>
 
-            {/* Stats */}
-            {/* <div
-              className="absolute -bottom-12 -left-10 bg-card rounded-2xl p-5 shadow-elevated animate-fade-up"
-              style={{ animationDelay: '0.7s' }}
-            >
-              <div className="text-center">
-                <p className="font-display text-3xl font-bold text-foreground">6th</p>
-                <p className="text-xs text-muted-foreground uppercase tracking-wider">
-                  Edition
-                </p>
-              </div>
-            </div> */}
+
           </div>
         </div>
 

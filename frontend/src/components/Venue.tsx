@@ -67,7 +67,7 @@ const Venue = () => {
 
             <div>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.725237481481!2d77.18678597496047!3d28.545010975708684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1df4b6b7b6f7%3A0x5c88f6c6f45f2b6b!2sIndian%20Institute%20of%20Technology%20Delhi!5e0!3m2!1sen!2sin!4v1704899000000!5m2!1sen!2sin"
+                src="https://www.google.com/maps?q=Lecture+Hall+Complex+IIT+Delhi&output=embed"
                 className="w-full h-64 rounded-lg border"
                 style={{ border: 0 }}
                 allowFullScreen
@@ -79,144 +79,8 @@ const Venue = () => {
           </div>
         </Card>
 
-        {/* Accommodation */}
-        <div className="grid md:grid-cols-2 gap-8 mb-12">
-          <Card className="p-6">
-            <img
-              src="/images/iit_hostel.jpg"
-              alt="IIT Delhi campus view"
-              className="w-full h-48 object-cover rounded-lg mb-4"
-            />
-            <h4 className="text-xl font-bold mb-2">On-Campus Accommodation</h4>
-            {/* <br></br> */}
-            {/* <p className="font-semibold">
-              To be updated soon
-            </p> */}
-            <p className="text-muted-foreground mb-4">
-              Limited number of on-campus hostel accommodation are available on sharing basis.
-            </p>
-            <div className="space-y-2">
-              <p className="font-semibold">Rs 750 per day (including all meals + Rs. 60 per day for bedding)</p>
-              <p className="text-sm text-muted-foreground">Walking distance to venue</p>
-            </div>
-            <div className="space-y-2">
-              <p className="font-semibold">Note: <span className="text-sm text-muted-foreground"> Accommodation changes are including in the conference registration fee.</span></p>
-            </div>
-          </Card>
-
-          <Card className="p-6">
-            <img
-              src="/images/iit_guestHouse.jpg"
-              alt="IIT Delhi campus view with flowers"
-              className="w-full h-48 object-cover rounded-lg mb-4"
-            />
-            <h4 className="text-xl font-bold mb-2">Guest House Accommodation</h4>
-            <br></br>
-            <p className="font-semibold">
-              To be updated soon
-            </p>
-            {/* <p className="text-muted-foreground mb-4">
-              A limited number of guest house accommodations on campus are available for speakers and other attendees, offering comfortable stays in a serene environment.
-            </p>
-            <div className="space-y-2">
-              <p className="text-sm text-muted-foreground">Priority for speakers and invited guests</p>
-              <p className="text-sm text-muted-foreground">Limited availability - request early</p>
-            </div> */}
-          </Card>
-        </div>
-
-        {/* Nearby Hotels */}
-        <Card className="p-6 mb-12">
-          <h4 className="text-xl font-bold mb-4">Nearby Hotels</h4>
-          <p className="text-muted-foreground mb-4">
-            For attendees seeking alternative accommodation, several hotels are available near the IIT Delhi campus:
-          </p>
-          <div className="grid sm:grid-cols-2 gap-4">
-            {nearbyHotels.map((hotel) => (
-              <div key={hotel.name} className="flex items-center gap-3">
-                <Building className="h-5 w-5 text-primary flex-shrink-0" />
-                <div>
-                  <p className="font-medium">{hotel.name}</p>
-                  <p className="text-sm text-muted-foreground">{hotel.distance}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-          <p className="text-xs text-muted-foreground mt-4">
-            *Hotel information is provided for reference only. LSO 2026 does not have any official tie-ups with these hotels.
-          </p>
-        </Card>
-
-        {/* How to Reach */}
-        {/* <div>
-          <h3 className="text-2xl font-bold mb-8 text-center">How to Reach</h3>
-          <div className="grid md:grid-cols-3 gap-6">
-            <Card className="p-6">
-              <div className="flex items-center gap-3 mb-4">
-                <div className="feature-icon bg-red-500 hover:bg-red-400">
-                  <Plane className="h-5 w-5  " />
-                </div>
-                <h4 className="text-lg font-semibold">By Air</h4>
-              </div>
-              <p className="text-muted-foreground mb-4">
-                Indira Gandhi International Airport (DEL) is approximately 10–15 km from the campus.
-              </p>
-              <ul className="text-sm text-muted-foreground space-y-1">
-                <li>• Taxi: </li>
-                <li>• App-based cabs available</li>
-              </ul>
-            </Card>
-
-            <Card className="p-6">
-              <div className="flex items-center gap-3 mb-4">
-                <div className="feature-icon bg-red-500 hover:bg-red-400">
-                  <Train className="h-5 w-5" />
-                </div>
-                <h4 className="text-lg font-semibold">By Train</h4>
-              </div>
-              <p className="text-muted-foreground mb-4">
-                Nearest stations: New Delhi and  Hazrat Nizamuddin on Central line.
-              </p>
-              <ul className="text-sm text-muted-foreground space-y-1">
-                <li>• Auto-rickshaws available</li>
-                <li>• Taxi: </li>
-              </ul>
-            </Card>
-
-            <Card className="p-6">
-              <div className="flex items-center gap-3 mb-4">
-                <div className="feature-icon bg-red-500 hover:bg-red-400">
-                  <Train className="h-5 w-5" />
-                </div>
-                <h4 className="text-lg font-semibold">By Metro</h4>
-              </div>
-              <p className="text-muted-foreground mb-4">
-                IIT Delhi is well connected via Delhi Metro.
-              </p>
-              <ul className="text-sm text-muted-foreground space-y-1">
-                <li>• IIT Delhi Metro Station (Magenta Line) – ~1 km</li>
-                <li>• Hauz Khas Metro Station (Yellow & Magenta Line) – ~2 km</li>
-              </ul>
-            </Card>
 
 
-            <Card className="p-6">
-              <div className="flex items-center gap-3 mb-4">
-                <div className="feature-icon bg-red-500 hover:bg-red-400">
-                  <Car className="h-5 w-5" />
-                </div>
-                <h4 className="text-lg font-semibold">By Road</h4>
-              </div>
-              <p className="text-muted-foreground mb-4">
-                IIT Delhi is well-connected by road network and easily accessible from all parts of Delhi.
-              </p>
-              <ul className="text-sm text-muted-foreground space-y-1">
-                <li>• Bus: </li>
-                <li>• App-based cabs available</li>
-              </ul>
-            </Card>
-          </div>
-        </div> */}
 
         <div>
           <h3 className="text-2xl font-bold mb-8 text-center">How to Reach</h3>
