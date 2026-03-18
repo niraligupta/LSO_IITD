@@ -9,7 +9,7 @@ const Program = () => {
     const fetchExcel = async () => {
       try {
         const res = await fetch(
-          'https://docs.google.com/spreadsheets/d/1ZZ17QNHS1MtRENhgHI8nvQE4ISM4qSK86QFC4zFS7FU/export?format=xlsx'
+          'https://docs.google.com/spreadsheets/d/1ZZ17QNHS1MtRENhgHI8nvQE4ISM4qSK86QFC4zFS7FU/edit?invite=CJmlj8UJ&gid=1441974153#gid=1441974153'
         );
 
         const arrayBuffer = await res.arrayBuffer();
@@ -111,7 +111,7 @@ const Program = () => {
                           );
                         }
 
-                        // ✅ NORMAL CELLS (with line break before bracket)
+
                         return (
                           <td key={idx} className="text-l">
                             {typeof cell === "string"

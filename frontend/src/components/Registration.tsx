@@ -1,4 +1,4 @@
-import { Calendar, Check, X, FileText } from 'lucide-react';
+
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import {
@@ -124,7 +124,7 @@ const Registration = () => {
                 className="bg-red-500 hover:bg-red-400 text-accent-foreground font-semibold shadow-glow"
                 asChild
               >
-                <a href="#">
+                <a href="https://cepqip.iitd.ac.in/post/program/large-scale-optimization-summer-school">
                   Register Now
                 </a>
               </Button>

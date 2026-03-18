@@ -108,7 +108,7 @@ const Hero = () => {
                 asChild
               >
 
-                <a href="/" className="inline-flex items-center gap-2">
+                <a href="https://cepqip.iitd.ac.in/post/program/large-scale-optimization-summer-school" className="inline-flex items-center gap-2">
                   Register Now
                   <ArrowRight className="w-4 h-4" />
                 </a>
