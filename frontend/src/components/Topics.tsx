@@ -8,7 +8,8 @@ const topics = [
   'Benders Decomposition ',
   'Sequential Decision Making',
   'Branch-and-Bound',
-  'Expectation Minimization & Chance-constrained Optimization',
+  'Expectation Minimization',
+  'Chance-constrained Optimization',
   'Semidefinite Programming',
   'Heuristic',
   'Robust Optimazation',
@@ -20,7 +21,7 @@ const topics = [
 const audiences = [
   {
     icon: GraduationCap,
-    title: 'Students / Post Doctoral',
+    title: 'Students / Post Docs',
     description:
       'Build a strong foundation in large-scale optimization, enhance your research capabilities, and interact with leading experts to advance your academic career.',
   },

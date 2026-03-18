@@ -9,7 +9,7 @@ import {
 
 
 const fees = [
-  { category: 'Students', description: 'PhD, Post-doctoral researchers, postgraduate or graduate', early_fees: '7,000', fee: '10,000' },
+  { category: 'Students', description: 'PhD, Post-docs researchers, postgraduate or graduate', early_fees: '7,000', fee: '10,000' },
   { category: 'Faculty members', description: 'Universities or colleges in India', early_fees: '14,000', fee: '20,000' },
   { category: 'Practitioners and all others', description: 'Industry professionals and international participants', early_fees: '30,000', fee: '42,000' },
 ];

@@ -10,7 +10,7 @@ const pastEditions = [
 ];
 
 const targetAudience = [
-  { icon: GraduationCap, label: 'Students / Post Doctoral' },
+  { icon: GraduationCap, label: 'Students / Post Docs' },
   { icon: GraduationCap, label: 'Government Officers' },
   { icon: Building2, label: 'Faculty Members' },
   { icon: Globe, label: 'Industry Professionals' },
