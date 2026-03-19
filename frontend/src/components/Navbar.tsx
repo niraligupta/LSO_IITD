@@ -38,15 +38,9 @@ const Navbar = () => {
         }`}
     >
       <div className="section-container">
-        <div className="flex items-center justify-between h-16">
-          {/* <a
-            href="#home"
-            className={`text-lg font-display font-bold transition-colors duration-300 ${scrolled ? 'text-foreground' : 'text-white'
-              }`}
-          >
-            LSO Summer School 2026 (June 1-6)
 
-          </a> */}
+        <div className="flex items-center justify-between h-16">
+
           <a
             href="#home"
             className={`text-lg font-display font-bold transition-colors duration-300 ${scrolled ? 'text-foreground' : 'text-white'
@@ -55,12 +49,12 @@ const Navbar = () => {
             LSO Summer School <span className="text-red-500">2026</span> <span className="opacity-80">(June 1–6)</span>
           </a>
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-6">
+          <div className="hidden md:flex items-center gap-6 ml-8 lg:ml-16">
             {navLinks.map((link) => (
               <a
                 key={link.href}
                 href={link.href}
-                className={`text-sm font-medium transition-colors duration-300 hover:text-accent ${scrolled
+                className={`text-base  font-semibold transition-colors duration-300 hover:text-accent ${scrolled
                   ? 'text-foreground/70 hover:text-foreground'
                   : 'text-white/80 hover:text-white'
                   }`}
@@ -95,7 +89,7 @@ const Navbar = () => {
                 <a
                   key={link.href}
                   href={link.href}
-                  className={`text-sm font-medium py-2 px-2 rounded-md transition-colors ${scrolled
+                  className={`text-base font-semibold py-3 px-2 rounded-md transition-colors ${scrolled
                     ? 'text-foreground/70 hover:text-foreground hover:bg-muted'
                     : 'text-white/80 hover:text-white hover:bg-white/10'
                     }`}
@@ -108,6 +102,7 @@ const Navbar = () => {
           </div>
         )}
       </div>
+
     </nav>
   );
 };

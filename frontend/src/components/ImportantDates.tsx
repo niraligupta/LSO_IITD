@@ -10,7 +10,7 @@ const importantDates = [
 
 const ImportantDates: React.FC = () => {
     return (
-        <section id="important">
+        <section id="important" className="scroll-mt-24">
 
             <div className="container-custom">
 
