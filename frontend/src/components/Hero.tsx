@@ -31,13 +31,14 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden"
+      className="relative min-h-[100svh] flex items-center justify-center pt-24 sm:pt-16 overflow-hidden"
     >
       \
       <div
         className="absolute inset-0 bg-center bg-cover bg-no-repeat"
         style={{
-          backgroundImage: "url('/images/iitdelhi.jpg')",
+          backgroundImage: "url('/images/iit_delhi.jpg')",
+          // backgroundImage: "url('/images/iitdelhi.jpg')",
           // filter: "none",
           // backdropFilter: "none",
           // opacity: 1
@@ -78,7 +79,7 @@ const Hero = () => {
 
             {/* Title */}
             <div className="space-y-4 animate-fade-up" style={{ animationDelay: '0.1s' }}>
-              <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-bold text-primary-foreground leading-[1.1]">
+              <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-primary-foreground leading-[1.1]">
                 Large Scale
                 <span className="block text-white">Optimization</span>
               </h1>
