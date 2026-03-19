@@ -48,7 +48,7 @@ const Registration = () => {
             <p className="text-muted-foreground mb-4">
               Registration includes participation in all sessions, course materials, certificate, and lunch/refreshments during the program. It does not include accommodation, travel, breakfast, and dinner.
             </p>
-            <p className="text-muted-foreground mb-4">Limited number of on-campus hostel accommodation are available on sharing basis for students.</p>
+            <p className="text-muted-foreground mb-4">Limited number of on-campus hostel accommodation are available on sharing basis.</p>
             <Card className="p-6 mb-6 border-destructive/50 bg-destructive/5">
               <h4 className="font-bold text-destructive mb-2">Registrations has started! </h4>
 
@@ -70,7 +70,7 @@ const Registration = () => {
                 alt="IIT Delhi campus view"
                 className="w-full h-48 object-cover rounded-lg mb-4"
               />
-              <h4 className="text-xl font-bold mb-2">On-Campus Accommodation (Student Only)</h4>
+              <h4 className="text-xl font-bold mb-2">On-Campus Accommodation</h4>
 
               <p className="text-muted-foreground mb-4">
                 Limited number of on-campus hostel accommodation are available on sharing basis.</p>
