@@ -13,8 +13,8 @@ const topics = [
   'Semidefinite Programming',
   'Heuristic',
   'Robust Optimazation',
-  'Column Genereration',
-  'Lagrangean Relaxation',
+  'Column Generation',
+  'Lagrangian Relaxation',
 
 ];
 

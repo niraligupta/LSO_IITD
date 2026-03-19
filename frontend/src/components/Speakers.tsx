@@ -22,7 +22,7 @@ const speakers = [
   { name: 'Amit Vatsa', institution: 'IIM Indore', image: '/images/speakers/Amit_Vatsa.jfif', profile: 'https://www.linkedin.com/in/amitvatsa/?originalSubdomain=in' },
   { name: 'Varun Ramamohan', institution: 'IIT Delhi', image: '/images/coreTeam/varun.jpg', profile: 'https://mech.iitd.ac.in/faculty-profile/189' },
   { name: 'Prasanna R', institution: 'IIT Delhi', image: '/images/coreTeam/Prasanna.jpg', profile: 'https://dms.iitd.ac.in/faculity_type/prof-prasanna/' },
-  { name: 'Vikas Vikarm Singh', institution: 'IIT Delhi', image: '/images/coreTeam/vikas_vikram.jpg', profile: 'https://iitd.irins.org/profile/70403' },
+  { name: 'Vikas Vikram Singh', institution: 'IIT Delhi', image: '/images/coreTeam/vikas_vikram.jpg', profile: 'https://iitd.irins.org/profile/70403' },
   { name: 'Amber Srivastava', institution: 'IIT Delhi', image: '/images/coreTeam/Amber.jpg', profile: 'https://mech.iitd.ac.in/faculty-profile/203' },
 
 
