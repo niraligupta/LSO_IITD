@@ -53,7 +53,7 @@ const Topics = () => {
         <div className="text-center mb-12">
           <h2 className="section-title">Topics</h2>
           <p className="section-subtitle">
-            The summer school will cover various advanced topics in integer, linear and nonlinear optimization.
+            The summer school will cover various advanced topics in linear, integer, and nonlinear optimization.
           </p>
         </div>
 

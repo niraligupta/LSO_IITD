@@ -87,7 +87,7 @@ const About = () => {
                 What You'll Learn
               </h3>
               <div className="grid sm:grid-cols-2 gap-3">
-                {['Integer Optimization', 'Linear  Optimization', 'Nonlinear Optimization', 'Real-world Applications'].map((topic) => (
+                {['Linear  Optimization', 'Integer Optimization', 'Nonlinear Optimization', 'Real-world Applications'].map((topic) => (
                   <div
                     key={topic}
                     className="flex items-center gap-3 bg-card p-4 rounded-xl border border-border hover:border-accent/30 transition-colors"

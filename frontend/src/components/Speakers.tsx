@@ -13,7 +13,7 @@ const speakers = [
   { name: 'Manu Kumar Gupta', institution: 'IIT Roorkee', image: '/images/speakers/Manu_Gupta.jpeg', profile: 'https://www.iitr.ac.in/~DM/Manu_Gupta' },
   { name: 'Sumit Kumar Yadav', institution: 'IIT Roorkee', image: '/images/speakers/sumit_yadav.jfif', profile: 'https://www.iitr.ac.in/~DM/Sumit_Kumar_Yadav' },
   { name: 'Shuvabrata Chakraborty', institution: 'IIM Raipur', image: '/images/speakers/Shuvabrata_Chakraborty.jpg', profile: 'https://iimraipur.ac.in/profile/?uid=82' },
-  { name: 'Trun Rambha', institution: 'IISC Bengaluru', image: '/images/speakers/trun_rambha.jfif', profile: 'https://cistup.iisc.ac.in/tarun/' },
+  { name: 'Tarun Rambha', institution: 'IISC Bengaluru', image: '/images/speakers/trun_rambha.jfif', profile: 'https://cistup.iisc.ac.in/tarun/' },
   { name: 'Saurabh Chandra', institution: 'IIM Indore', image: '/images/speakers/Saurabh_Chandra.jpg', profile: 'https://iimidr.ac.in/faculty/full-time-faculty/saurabh-chandra/' },
   { name: 'Reshma Chandrasekharan', institution: 'IIM Bangalore', image: '/images/speakers/Reshma_Chandrasekharan.jpg', profile: 'https://www.iimb.ac.in/user/225/reshma-chirayil-chandrasekharan' },
   { name: 'Guneshwar Anand', institution: "Queen's University Belfast", image: '/images/speakers/Guneshwar_Anand.png', profile: 'https://www.qub.ac.uk/schools/queens-business-school/people/academic-staff/AllAcademicStaffProfiles/Anand.html' },

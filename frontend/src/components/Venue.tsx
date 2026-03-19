@@ -79,7 +79,27 @@ const Venue = () => {
           </div>
         </Card>
 
-
+        {/* Nearby Hotels */}
+        <Card className="p-6 mb-12">
+          <h4 className="text-xl font-bold mb-4">Nearby Hotels</h4>
+          <p className="text-muted-foreground mb-4">
+            For attendees seeking alternative accommodation, several hotels are available near the IIT Delhi campus:
+          </p>
+          <div className="grid sm:grid-cols-2 gap-4">
+            {nearbyHotels.map((hotel) => (
+              <div key={hotel.name} className="flex items-center gap-3">
+                <Building className="h-5 w-5 text-primary flex-shrink-0" />
+                <div>
+                  <p className="font-medium">{hotel.name}</p>
+                  <p className="text-sm text-muted-foreground">{hotel.distance}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+          <p className="text-xs text-muted-foreground mt-4">
+            *Hotel information is provided for reference only. LSO 2026 does not have any official tie-ups with these hotels.
+          </p>
+        </Card>
 
 
         <div>

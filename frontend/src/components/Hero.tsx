@@ -93,7 +93,7 @@ const Hero = () => {
               className="text-lg text-primary-foreground/70 max-w-xl leading-relaxed animate-fade-up"
               style={{ animationDelay: '0.2s' }}
             >
-              Dive deep into advanced integer, linear, and nonlinear optimization.
+              Dive deep into advanced linear, integer, and nonlinear optimization.
               Join India&apos;s premier optimization community for a week of intensive learning.
             </p>
 

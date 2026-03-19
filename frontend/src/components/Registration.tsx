@@ -12,7 +12,7 @@ import {
 const fees = [
   { category: 'Students', description: 'PhD, Post-docs researchers, postgraduate or graduate', early_fees: '7,000', fee: '10,000' },
   { category: 'Faculty members', description: 'Universities or colleges in India', early_fees: '14,000', fee: '20,000' },
-  { category: 'Industry Proffessionals/Government Officers ', description: 'R&D engineers, Oprations managers, Policymakers, etc.', early_fees: '30,000', fee: '42,000' },
+  { category: 'Industry Professionals/Government Officers ', description: 'R&D engineers, Operations managers, Policymakers, etc.', early_fees: '30,000', fee: '42,000' },
 ];
 
 
@@ -73,8 +73,7 @@ const Registration = () => {
               <h4 className="text-xl font-bold mb-2">On-Campus Accommodation (Student Only)</h4>
 
               <p className="text-muted-foreground mb-4">
-                Limited number of on-campus hostel accommodation are available on sharing basis.
-              </p>
+                Limited number of on-campus hostel accommodation are available on sharing basis.</p>
               <div className="space-y-2">
                 <p className="font-semibold">Rs 750 per day (including all meals + Rs. 60 per day for bedding)</p>
                 <p className="text-sm text-muted-foreground">Walking distance to venue</p>
@@ -115,7 +114,7 @@ const Registration = () => {
             </div>
 
             <p className="text-xs text-muted-foreground mb-8">
-              * Registration fees does not include accommodation, travel and food.
+              * Registration fees does not include accommodation, travel and breakfast/dinner.
             </p>
             {/* CTA */}
             <div className="pt-4">
