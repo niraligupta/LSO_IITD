@@ -118,7 +118,7 @@ const Hero = () => {
                 asChild
               >
                 <a
-                  href="/LSO2026_brochure_QR.pdf"
+                  href="/LSO2026_brochure_v2.pdf"
                   download
                   className="inline-flex items-center justify-center gap-2"
                 >

@@ -114,7 +114,7 @@ const Registration = () => {
             </div>
 
             <p className="text-xs text-muted-foreground mb-8">
-              * Registration fees does not include accommodation, travel and breakfast/dinner.
+              * Registration fee does not include accommodation, travel and breakfast/dinner.
             </p>
             {/* CTA */}
             <div className="pt-4">
