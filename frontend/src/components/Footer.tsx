@@ -26,18 +26,18 @@ const Footer = () => {
 
         <div className="border-t border-background/15 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-background/50">
           <p>© 2026 LSO Summer School. All rights reserved.</p>
-          {/* <p className="flex items-center gap-1.5">
+          <p className="flex items-center gap-1.5">
             Developed by{' '}
             <a
-              href="https://www.linkedin.com/in/nirali-gupta-977011286/"
+              href="https://www.linkedin.com/in/civiliitd/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1 font-medium transition-colors"
             >
-              Nirali Gupta
+              Department of Civil Engineering
 
             </a>
-          </p> */}
+          </p>
 
         </div>
       </div >

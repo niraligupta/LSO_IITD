@@ -3,11 +3,11 @@ import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
 const nearbyHotels = [
-  { name: 'Hotel Shyama International', distance: '0.1 km (Opposite IIT Delhi Main Gate)' },
-  { name: 'The Ashtan Sarovar Portico', distance: '1.5 km from IIT Delhi' },
-  { name: 'Hotel Oscar', distance: '1.2 km from IIT Delhi' },
-  { name: 'Hotel Park Residency', distance: '1.8 km from IIT Delhi' },
-  { name: 'Hotel South Gate', distance: '1.6 km from IIT Delhi' },
+  { name: 'Hotel Shyama International', distance: '0.1 km (Opposite IIT Delhi Main Gate)', link: "https://maps.app.goo.gl/19SrXbxGa7iVitrY8" },
+  { name: 'The Ashtan Sarovar Portico', distance: '1.5 km from IIT Delhi', link: "https://maps.app.goo.gl/6rHidmMeWEDEVHUM9" },
+  { name: 'Hotel Oscar', distance: '1.2 km from IIT Delhi', link: "https://maps.app.goo.gl/pNWXoeY5R9kDfVnW8" },
+  { name: 'Hotel Park Residency', distance: '1.8 km from IIT Delhi', link: "https://maps.app.goo.gl/hgyJfSLFkPBc8ovg7" },
+  { name: 'Hotel South Gate', distance: '1.6 km from IIT Delhi', link: "https://maps.app.goo.gl/2sc7WsiJoHfaLyYC9" },
 ];
 
 
@@ -59,7 +59,11 @@ const Venue = () => {
               </div>
 
               <Button className="mt-6" asChild>
-                <a href="https://www.google.com/maps/place/Indian+Institute+of+Technology+Delhi/@28.5450109,77.186786,17z" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://www.google.com/maps/search/?api=1&query=Lecture+Hall+Complex+IIT+Delhi"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   View on Google Maps <ExternalLink className="h-4 w-4 ml-2" />
                 </a>
               </Button>
@@ -90,7 +94,15 @@ const Venue = () => {
               <div key={hotel.name} className="flex items-center gap-3">
                 <Building className="h-5 w-5 text-primary flex-shrink-0" />
                 <div>
-                  <p className="font-medium">{hotel.name}</p>
+                  {/* <p className="font-medium">{hotel.name}</p> */}
+                  <a
+                    href={hotel.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-medium text-black hover:underline"
+                  >
+                    {hotel.name}
+                  </a>
                   <p className="text-sm text-muted-foreground">{hotel.distance}</p>
                 </div>
               </div>

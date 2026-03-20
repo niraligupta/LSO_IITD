@@ -75,7 +75,7 @@ const Registration = () => {
               <p className="text-muted-foreground mb-4">
                 Limited number of on-campus hostel accommodation are available on sharing basis.</p>
               <div className="space-y-2">
-                <p className="font-semibold">Rs 750 per day (including all meals + Rs. 60 per day for bedding)</p>
+                <p className="font-semibold">Rs. 750 per day (including all meals) + Rs. 60 per day for bedding</p>
                 <p className="text-sm text-muted-foreground">Walking distance to venue</p>
               </div>
               <div className="space-y-2">
