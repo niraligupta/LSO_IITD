@@ -6,7 +6,7 @@ const organizers = [
   { name: 'Prashant Palkar', department: 'Mechanical Engineering Department', image: '/images/coreTeam/prashant.jfif', profile: 'https://mech.iitd.ac.in/faculty-profile/207' },
   { name: 'Varun Ramamohan', department: 'Mechanical Engineering Department', image: '/images/coreTeam/varun.jpg', profile: 'https://mech.iitd.ac.in/faculty-profile/189' },
   { name: 'Prasanna R', department: ' Management studies Department', image: '/images/coreTeam/Prasanna.jpg', profile: 'https://dms.iitd.ac.in/faculity_type/prof-prasanna/' },
-  { name: 'Vikas Vikarm Singh', department: 'Mathematics Department', image: '/images/coreTeam/vikas_vikram.jpg', profile: 'https://iitd.irins.org/profile/70403' },
+  { name: 'Vikas Vikram Singh', department: 'Mathematics Department', image: '/images/coreTeam/vikas_vikram.jpg', profile: 'https://iitd.irins.org/profile/70403' },
   { name: 'Amber Srivastava', department: 'Mechanical Engineering Department', image: '/images/coreTeam/Amber.jpg', profile: 'https://mech.iitd.ac.in/faculty-profile/203' },
   { name: 'Ramachandra Rao Kalaga', department: 'Civil Engineering Department', image: '/images/coreTeam/Kalgasir.jpg', profile: 'https://web.iitd.ac.in/~rrkalaga/' },
 
