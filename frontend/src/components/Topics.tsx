@@ -3,7 +3,7 @@ import { GraduationCap, BookOpen, Briefcase, Users } from 'lucide-react';
 const topics = [
   'Modeling Optimization Problems',
   'Valid Inequalities',
-  'Branch-and-cut',
+  'Branch-and-Cut',
   'Nonlinear Optimization',
   'Benders Decomposition ',
   'Sequential Decision Making',
@@ -12,7 +12,7 @@ const topics = [
   'Chance-constrained Optimization',
   'Semidefinite Programming',
   'Heuristic',
-  'Robust Optimazation',
+  'Robust Optimization',
   'Column Generation',
   'Lagrangian Relaxation',
 

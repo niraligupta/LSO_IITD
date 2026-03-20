@@ -131,7 +131,7 @@ const Venue = () => {
               </p>
               <ul className="text-sm text-muted-foreground space-y-1">
                 <li>• Taxi: 20–30 minutes depending on traffic</li>
-                <li>• App-based cabs available (Ola / Uber)</li>
+                <li>• App-based (Ola / Uber) cabs are available </li>
               </ul>
             </Card>
 
@@ -148,7 +148,7 @@ const Venue = () => {
               </p>
               <ul className="text-sm text-muted-foreground space-y-1">
                 <li>• Taxi: 25–35 minutes</li>
-                <li>• Auto-rickshaws available</li>
+                <li>• Auto-rickshaws are available</li>
               </ul>
             </Card>
 
@@ -181,8 +181,8 @@ const Venue = () => {
                 IIT Delhi is well-connected by road and easily accessible from all parts of Delhi.
               </p>
               <ul className="text-sm text-muted-foreground space-y-1">
-                <li>• DTC Buses available</li>
-                <li>• App-based cabs (Ola / Uber)</li>
+                <li>• DTC Buses are available</li>
+                <li>• App-based  (Ola / Uber) cabs are available </li>
               </ul>
             </Card>
 
