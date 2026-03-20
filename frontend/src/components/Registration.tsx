@@ -113,7 +113,7 @@ const Registration = () => {
               </table>
             </div>
 
-            <p className="text-xs text-muted-foreground mb-8">
+            <p className="text-xs text-red-500 mb-8">
               * Registration fee does not include accommodation, travel and breakfast/dinner.
             </p>
             {/* CTA */}
