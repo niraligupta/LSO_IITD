@@ -169,7 +169,7 @@ const Venue = () => {
                 IIT Delhi is well-connected by road and easily accessible from all parts of Delhi.
               </p>
               <ul className="text-sm text-muted-foreground space-y-1">
-                <li>• DTC Buses available</li>
+                <li>• DTC Buses are available</li>
                 <li>• App-based  (Ola / Uber) cabs are available </li>
               </ul>
             </Card>
