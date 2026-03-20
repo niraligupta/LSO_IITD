@@ -50,7 +50,7 @@ const Registration = () => {
             </p>
             <p className="text-muted-foreground mb-4">Limited number of on-campus hostel accommodation are available on sharing basis.</p>
             <Card className="p-6 mb-6 border-destructive/50 bg-destructive/5">
-              <h4 className="font-bold text-destructive mb-2">Registrations has started! </h4>
+              <h4 className="font-bold text-destructive mb-2">Registration has started! </h4>
 
 
 
@@ -114,7 +114,7 @@ const Registration = () => {
             </div>
 
             <p className="text-xs text-muted-foreground mb-8">
-              * Registration fees does not include accommodation, travel and breakfast/dinner.
+              * Registration fee does not include accommodation, travel and breakfast/dinner.
             </p>
             {/* CTA */}
             <div className="pt-4">
