@@ -23,7 +23,7 @@ const Venue = () => {
         </div>
 
         <Card className="p-8 mb-12">
-          <h3 className="text-2xl font-bold mb-4">LHC IIT Delhi</h3>
+          <h3 className="text-2xl font-bold mb-4">Lecture Hall Complex (LHC), IIT Delhi</h3>
 
           <div className="grid md:grid-cols-2 gap-8">
             <div>
@@ -130,8 +130,8 @@ const Venue = () => {
                 Indira Gandhi International Airport (DEL) is approximately 10–15 km from the campus.
               </p>
               <ul className="text-sm text-muted-foreground space-y-1">
-                <li>• Taxi: 20–30 minutes depending on traffic</li>
-                <li>• App-based (Ola / Uber) cabs are available </li>
+                <li>• Taxi/App-based (Ola / Uber) cabs are available at all terminals: 20–40 minutes depending on traffic</li>
+                <li>• If you arrive at Terminal 1, you can also take the Magenta Line from Terminal 1 Metro Station to IIT Delhi Metro Station.   </li>
               </ul>
             </Card>
 
@@ -149,6 +149,8 @@ const Venue = () => {
               <ul className="text-sm text-muted-foreground space-y-1">
                 <li>• Taxi: 25–35 minutes</li>
                 <li>• Auto-rickshaws are available</li>
+                <li>• If you arrive at New Delhi Railway Station, you can take the Yellow Line from New Delhi Metro Station to Hauz Khas Metro Station, then transfer to the Magenta Line to reach IIT Delhi Metro Station.</li>
+                <li>• If you arrive at Hazrat Nizamuddin Railway Station, you can take the Pink Line from Sarai Kale Khan Metro Station, transfer to the Yellow Line at Delhi Haat/INA, and then transfer to the Magenta Line to reach IIT Delhi Metro Station.</li>
               </ul>
             </Card>
 
@@ -181,7 +183,7 @@ const Venue = () => {
                 IIT Delhi is well-connected by road and easily accessible from all parts of Delhi.
               </p>
               <ul className="text-sm text-muted-foreground space-y-1">
-                <li>• DTC Buses are available</li>
+                <li>• DTC buses are available</li>
                 <li>• App-based  (Ola / Uber) cabs are available </li>
               </ul>
             </Card>

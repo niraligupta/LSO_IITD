@@ -2,10 +2,10 @@ import React from "react";
 import { Calendar } from "lucide-react";
 
 const importantDates = [
-    { date: "18 March, 2026", event: "Registration Opens" },
+    { date: "19 March, 2026", event: "Registration Opens" },
     { date: "28 March, 2026", event: "Early Bird Registration Closes" },
     { date: "15 April, 2026", event: "Late Registration Closes" },
-    { date: "June 01, 2026", event: "School Starts" },
+    { date: "1 June, 2026", event: "School Starts" },
 ];
 
 const ImportantDates: React.FC = () => {

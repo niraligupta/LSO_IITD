@@ -20,7 +20,7 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-wrap justify-center gap-6 text-sm text-background/70 mb-8">
-          <span>📅 June 01–06, 2026</span>
+          <span>📅 June 1–6, 2026</span>
           <span>📍 IIT Delhi, India</span>
         </div>
 
@@ -34,7 +34,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1 font-medium transition-colors"
             >
-              Department of Civil Engineering
+              Department of Civil and Environmental Engineering, IIT Delhi
 
             </a>
           </p>

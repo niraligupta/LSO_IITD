@@ -10,7 +10,7 @@ import {
 
 
 const fees = [
-  { category: 'Students', description: 'PhD, Post-doc researchers, postgraduate or graduate', early_fees: '7,000', fee: '10,000' },
+  { category: 'Students', description: 'PhD, Post-doc researchers, postgraduate or graduate, academic associates (RA/TA/JRF/SRF)', early_fees: '7,000', fee: '10,000' },
   { category: 'Faculty members', description: 'Universities or colleges in India', early_fees: '14,000', fee: '20,000' },
   { category: 'Industry professionals/Government officers ', description: 'R&D engineers, Operations managers, Policymakers, etc.', early_fees: '30,000', fee: '42,000' },
 ];
@@ -48,7 +48,6 @@ const Registration = () => {
             <p className="text-muted-foreground mb-4">
               Registration includes participation in all sessions, course materials, certificate, and lunch/refreshments during the program. It does not include accommodation, travel, breakfast, and dinner.
             </p>
-            <p className="text-muted-foreground mb-4">A limited number of on-campus hostel accommodations are available on a sharing basis.</p>
             <Card className="p-6 mb-6 border-destructive/50 bg-destructive/5">
               <h4 className="font-bold text-destructive mb-2">Registration has started! </h4>
 
@@ -73,7 +72,7 @@ const Registration = () => {
               <h4 className="text-xl font-bold mb-2">On-Campus Accommodation</h4>
 
               <p className="text-muted-foreground mb-4">
-                A limited number of on-campus hostel accommodations are available on a sharing basis.</p>
+                A limited number of on-campus hostel accommodations are available on a sharing basis. If you opt for this option, more information will be shared later through email.</p>
               <div className="space-y-2">
 
                 <p className="font-semibold">

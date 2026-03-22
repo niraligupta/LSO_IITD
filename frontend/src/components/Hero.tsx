@@ -61,7 +61,7 @@ const Hero = () => {
             <div className="inline-flex flex-wrap justify-center lg:justify-start items-center gap-3 px-4 py-2.5 rounded-full border border-red-400/60 backdrop-blur-sm text-sm sm:text-base animate-fade-up">
               <Calendar className="w-4 h-4 sm:w-5 sm:h-5 text-red-400" />
               <span className="font-medium text-white">
-                June 01–06, 2026
+                June 1–6, 2026
               </span>
               <span className="w-1.5 h-1.5 rounded-full bg-red-400" />
               <MapPin className="w-4 h-4 sm:w-5 sm:h-5 text-red-400" />

@@ -7,9 +7,7 @@ const speakers = [
   { name: 'Faiz Hamid', institution: 'IIT Kanpur', image: '/images/speakers/Faiz_Hamid.jpg', profile: 'https://www.iitk.ac.in/new/faiz-hamid' },
   { name: 'Nezamuddin', institution: 'IIT Delhi', image: '/images/coreTeam/nezam.jpg', profile: 'https://web.iitd.ac.in/~nezam/' },
   { name: 'Ashutosh Mahajan', institution: 'IIT Bombay', image: '/images/speakers/Ashutosh_Mahajan.png', profile: 'https://www.ieor.iitb.ac.in/amahajan' },
-
-  { name: 'Prashant Palkar', institution: 'IIT Delhi', image: '/images/coreTeam/prashant.jfif', profile: 'https://mech.iitd.ac.in/faculty-profile/207' },
-
+  { name: 'Prashant Palkar', institution: 'IIT Delhi', image: '/images/coreTeam/prashant.jfif', profile: 'https://ppalkar.github.io' },
   { name: 'Manu Kumar Gupta', institution: 'IIT Roorkee', image: '/images/speakers/Manu_Gupta.jpeg', profile: 'https://www.iitr.ac.in/~DM/Manu_Gupta' },
   { name: 'Sumit Kumar Yadav', institution: 'IIT Roorkee', image: '/images/speakers/sumit_yadav.jfif', profile: 'https://www.iitr.ac.in/~DM/Sumit_Kumar_Yadav' },
   { name: 'Shuvabrata Chakraborty', institution: 'IIM Raipur', image: '/images/speakers/Shuvabrata_Chakraborty.jpg', profile: 'https://iimraipur.ac.in/profile/?uid=82' },
@@ -24,6 +22,8 @@ const speakers = [
   { name: 'Prasanna R', institution: 'IIT Delhi', image: '/images/coreTeam/Prasanna.jpg', profile: 'https://dms.iitd.ac.in/faculity_type/prof-prasanna/' },
   { name: 'Vikas Vikram Singh', institution: 'IIT Delhi', image: '/images/coreTeam/vikas_vikram.jpg', profile: 'https://iitd.irins.org/profile/70403' },
   { name: 'Amber Srivastava', institution: 'IIT Delhi', image: '/images/coreTeam/Amber.jpg', profile: 'https://mech.iitd.ac.in/faculty-profile/203' },
+  { name: 'Kartikey Sharma', institution: 'IIT Delhi', image: '/images/coreTeam/kartikey.png', profile: 'https://kartikeyrinwa.github.io/' },
+
 
 
 
