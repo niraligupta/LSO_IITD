@@ -8,7 +8,7 @@ const organizers = [
   { name: 'Prasanna R', department: ' Management studies Department', image: '/images/coreTeam/Prasanna.jpg', profile: 'https://dms.iitd.ac.in/faculity_type/prof-prasanna/' },
   { name: 'Vikas Vikram Singh', department: 'Mathematics Department', image: '/images/coreTeam/vikas_vikram.jpg', profile: 'https://iitd.irins.org/profile/70403' },
   { name: 'Amber Srivastava', department: 'Mechanical Engineering Department', image: '/images/coreTeam/Amber.jpg', profile: 'https://mech.iitd.ac.in/faculty-profile/203' },
-  { name: 'Ramachandra Rao Kalaga', department: 'Civil Engineering Department', image: '/images/coreTeam/Kalgasir.jpg', profile: 'https://web.iitd.ac.in/~rrkalaga/' },
+  { name: 'K. Ramachandra Rao', department: 'Civil Engineering Department', image: '/images/coreTeam/Kalgasir.jpg', profile: 'https://web.iitd.ac.in/~rrkalaga/' },
   { name: 'Kartikey Sharma', department: 'Mechanical Engineering Department', image: '/images/coreTeam/kartikey.png', profile: 'https://kartikeyrinwa.github.io/' },
 
 
