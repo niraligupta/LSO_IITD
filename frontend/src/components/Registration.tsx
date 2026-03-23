@@ -19,15 +19,31 @@ const fees = [
 
 
 const faqs = [
+  // {
+  //   question: 'When is the last date for registration?',
+  //   answer: 'The early bird registration ends on 28 March 2026 and the late registration ends on 15 April 2026.',
+  // },
   {
-    question: 'When is the last date for registration?',
-    answer: 'The early bird registration ends on 28 March 2026 and the late registration ends on 15 April 2026.',
+    question: 'Is there a provision for a fee waiver?',
+    answer: 'The registration fee covers participation in a week-long on-site program at IIT Delhi campus and includes course materials, certificate, lunch, and two refreshments each day of the program. The fees are kept to a minimum, and we are unable to provide any further discounts or waivers on them. Thanks for your understanding.',
   },
-
+  {
+    question: 'Will accommodation be provided?',
+    answer: 'A limited number of on-campus hostel accommodations are available on a sharing basis. If you opt for this option, more information will be shared later through email after you register.',
+  },
+  {
+    question: 'Does the summer school have an online version?',
+    answer: 'The LSO Summer School 2026 is a week-long on-site program at the IIT Delhi campus featuring interactive lectures by IIT and IIM faculty members and provides hands-on lab sessions. It is not offered in an online format.',
+  },
+  {
+    question: 'Can I get a refund if I cancel my registration?',
+    answer: 'No refunds will be entertained if one does not attend the event.',
+  },
   {
     question: 'Can I register for specific days only?',
-    answer: 'The summer school is designed as a comprehensive program, and partial registration is not available. Participants are expected to attend the full program.',
+    answer: 'The Summer School is a week-long comprehensive program featuring interactive lectures, and partial registration is not available. Participants are expected to attend the full program.',
   },
+
 ];
 
 const Registration = () => {
