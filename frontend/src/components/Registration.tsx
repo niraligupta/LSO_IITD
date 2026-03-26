@@ -104,8 +104,8 @@ const Registration = () => {
 
           {/* Right Column */}
           <div>
-            <h3 className="text-2xl font-bold mb-4">Registration Fees</h3>
-            <p className="text-sm text-muted-foreground mb-4">Includes goods and services tax (GST)</p>
+            <h3 className="text-2xl font-bold mb-4">Registration Fees <sup>*, #</sup></h3>
+            <p className="text-sm text-muted-foreground mb-4"> Includes goods and services tax (GST)</p>
 
             <div className="overflow-x-auto mb-8">
               <table className="w-full">
@@ -131,8 +131,11 @@ const Registration = () => {
               </table>
             </div>
 
-            <p className="text-xs text-red-500 mb-8">
+            <p className="text-sm text-red-500 mb-4">
               * Registration fee does not include accommodation, travel, and breakfast/dinner.
+            </p>
+            <p className="text-sm text-blue-500 mb-8">
+              # If an institution or organization sends more than 20 participants, they can avail of a 15% discount on the existing fee. For group registrations, please write an email to <a href="mailto:lso2026@admin.iitd.ac.in" className="text-blue-500 hover:underline">lso2026@admin.iitd.ac.in</a>. 
             </p>
             {/* CTA */}
             <div className="pt-4">
