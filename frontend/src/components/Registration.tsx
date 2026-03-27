@@ -151,7 +151,9 @@ const Registration = () => {
 
 
                 <p className="text-muted-foreground">
-                  For any queries regarding registration and payment, please contact: <a href="mailto:cepaccounts@admin.iitd.ac.in" className="text-red-500 hover:underline">cepaccounts@admin.iitd.ac.in</a> copying <a href="mailto:cepiitd@admin.iitd.ac.in" className="text-red-500 hover:underline">cepiitd@admin.iitd.ac.in</a> and <a href="mailto:lso2026@admin.iitd.ac.in" className="text-red-500 hover:underline">lso2026@admin.iitd.ac.in</a>
+                  For any queries regarding registration and payment, please contact: <a href="mailto:cepaccounts@admin.iitd.ac.in" className="text-red-500 hover:underline">cepaccounts@admin.iitd.ac.in</a> copying
+                  <a href="mailto:cepiitd@admin.iitd.ac.in" className="text-red-500 hover:underline">cepiitd@admin.iitd.ac.in</a> and
+                  <a href="mailto:lso2026@admin.iitd.ac.in" className="text-red-500 hover:underline">lso2026@admin.iitd.ac.in</a>
                 </p>
               </Card>
 
