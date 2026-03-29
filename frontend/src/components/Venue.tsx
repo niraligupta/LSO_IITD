@@ -150,7 +150,7 @@ const Venue = () => {
                 <li>• Taxi: 25–35 minutes</li>
                 <li>• Auto-rickshaws are available</li>
                 <li>• If you arrive at New Delhi Railway Station, you can take the Yellow Line from New Delhi Metro Station to Hauz Khas Metro Station, then transfer to the Magenta Line to reach IIT Delhi Metro Station.</li>
-                <li>• If you arrive at Hazrat Nizamuddin Railway Station, you can take the Pink Line from Sarai Kale Khan Metro Station, transfer to the Yellow Line at Delhi Haat/INA, and then transfer to the Magenta Line to reach IIT Delhi Metro Station.</li>
+                <li>• If you arrive at Hazrat Nizamuddin Railway Station, you can take the Pink Line from Sarai Kale Khan Metro Station, transfer to the Yellow Line at Delhi Haat/INA, and then transfer to the Magenta Line at Hauz Khas Metro Station to reach IIT Delhi Metro Station.</li>
               </ul>
             </Card>
 
