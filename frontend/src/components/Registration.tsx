@@ -71,10 +71,10 @@ const Registration = () => {
 
 
               <p className="text-sm text-muted-foreground mt-4">
-                Early bird registration closes on <span className='font-bold'>28 March 2026.</span>
+                Early bird registration closes on <span className='font-bold'>30 April 2026.</span>
               </p>
               <p className="text-sm text-muted-foreground mt-4">
-                Late registration closes on <span className='font-bold'>15 April 2026.</span>
+                Late registration closes on <span className='font-bold'>15 May 2026.</span>
               </p>
             </Card>
 
@@ -116,8 +116,8 @@ const Registration = () => {
                 <thead>
                   <tr className="border-b border-border">
                     <th className="text-left py-3 font-semibold">Category</th>
-                    <th className="text-right py-3 font-semibold"> Early Bird Fee (in rupees) <br></br>(<s>until 28 March 2026</s> <span className="text-green-500">until 30 April 2026</span>)</th>
-                    <th className="text-right py-3 font-semibold">    Late Fee (in rupees)<br></br>(<s>until 15 April 2026 </s> <span className="text-green-500">until 15 May 2026 </span>)</th>
+                    <th className="text-right py-3 font-semibold"> Early Bird Fee (in rupees) <br></br>(<s>until 30 April 2026</s> <span className="text-green-500">until 30 April 2026</span>)</th>
+                    <th className="text-right py-3 font-semibold">    Late Fee (in rupees)<br></br>(<s>until 15 May 2026 </s> <span className="text-green-500">until 15 May 2026 </span>)</th>
                   </tr>
                 </thead>
                 <tbody>
