@@ -3,8 +3,8 @@ import { Calendar } from "lucide-react";
 
 const importantDates = [
     { date: "19 March, 2026", event: "Registration Opens" },
-    { date: "28 March, 2026", event: "Early Bird Registration Closes" },
-    { date: "15 April, 2026", event: "Late Registration Closes" },
+    { date: <span><s>28 March, 2026</s>, 30 April, 2026</span>, event: "Early Bird Registration Closes" },
+    { date: <span><s>15 April, 2026</s>, 15 May, 2026</span>, event: "Late Registration Closes" },
     { date: "1 June, 2026", event: "School Starts" },
 ];
 
