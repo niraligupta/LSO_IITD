@@ -76,7 +76,7 @@ const Hero = () => {
             {/* Title */}
             <div className="space-y-4 animate-fade-up" style={{ animationDelay: '0.1s' }}>
               <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-primary-foreground leading-[1.1]">
-                Large Scale
+                Large-Scale
                 <span className="block text-white">Optimization</span>
               </h1>
               <p className="text-2xl md:text-3xl font-display font-medium text-primary-foreground/80">

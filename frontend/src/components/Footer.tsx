@@ -13,7 +13,7 @@ const Footer = () => {
           <div>
             <h3 className="text-2xl font-bold tracking-tight">LSO Summer School 2026</h3>
             <p className="text-background/60 mt-1">
-              Large Scale Optimization Summer School
+              Large-Scale Optimization Summer School
             </p>
           </div>
 
