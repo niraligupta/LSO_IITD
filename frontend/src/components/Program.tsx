@@ -1,5 +1,15 @@
 
 import { useEffect, useState } from 'react';
+import { Calendar } from 'lucide-react';
+import { Card } from '@/components/ui/card';
+const preschoolSessions = [
+  { date: 'May 16, 2026', topic: 'Introduction to optimization problems and mathematical modeling', speaker: 'Shubham Keshri, IIT Kanpur' },
+  { date: 'May 17, 2026', topic: 'Installing Python and Gurobi', speaker: 'Saurabh Chandra, IIM Indore' },
+  { date: 'May 22, 2026', topic: 'Heuristics', speaker: 'Reshma Chandrasekharan, IIM Bangalore' },
+  { date: 'May 23, 2026', topic: 'Introduction to LP and simplex method', speaker: 'Ashutosh Mahajan, IIT Bombay' },
+  { date: 'May 24, 2026', topic: 'LP duality', speaker: 'Prof Yogesh Agarwal, IIM Lucknow (Retd)' },
+  { date: 'May 25, 2026', topic: 'MDP', speaker: 'Prof. Amber, IIT Delhi' },
+];
 const Program = () => {
   const [schedule, setSchedule] = useState<any[]>([]);
   const [headers, setHeaders] = useState<string[]>([]);
@@ -159,6 +169,27 @@ const Program = () => {
             </tbody>
 
           </table>
+        </div>
+
+        {/* Pre-School Sessions */}
+        <div className="mt-16">
+          <h3 className="text-2xl font-bold mb-4 text-center">Online Pre-School Sessions</h3>
+          <p className="text-muted-foreground text-center mb-8 max-w-3xl mx-auto">
+            Online pre-school sessions will be conducted prior to the main LSO Summer School event to help participants refresh foundational concepts and gain an introductory overview of the topics to be covered.
+          </p>
+          <p className="text-center mb-8">
+            The pre-school sessions will take place from <strong>6:00 PM to 7:30 PM</strong>. Interested participants are requested to join via <strong>MS Teams</strong> using the meeting link shared by email.
+          </p>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {preschoolSessions.map((session, idx) => (
+              <Card key={idx} className="p-4">
+                <div className="text-red-500 font-semibold mb-2">Session {idx + 1}: {session.date}</div>
+                <h4 className="font-semibold mb-2">{session.topic}</h4>
+                <p className="text-sm text-muted-foreground">{session.speaker}</p>
+              </Card>
+            ))}
+          </div>
         </div>
       </div>
     </section>
