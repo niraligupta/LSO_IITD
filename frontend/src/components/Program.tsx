@@ -8,7 +8,7 @@ const preschoolSessions = [
   { date: 'May 22, 2026', topic: 'Heuristics', speaker: 'Reshma Chandrasekharan, IIM Bangalore' },
   { date: 'May 23, 2026', topic: 'Introduction to Linear Programming and the Simplex Method', speaker: 'Simran Lakhani, IIT Bombay' },
   { date: 'May 24, 2026', topic: 'Linear Programming Duality', speaker: 'Yogesh Agarwal, IIM Lucknow' },
-  { date: 'May 25, 2026', topic: 'Sequential Decision Making', speaker: 'Amber Srivastava, IIT Delhi' },
+  { date: 'May 26, 2026', topic: 'Sequential Decision Making', speaker: 'Amber Srivastava, IIT Delhi' },
 ];
 const Program = () => {
   const [schedule, setSchedule] = useState<any[]>([]);
