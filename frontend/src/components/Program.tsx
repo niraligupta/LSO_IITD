@@ -3,10 +3,10 @@ import { useEffect, useState } from 'react';
 import { Calendar } from 'lucide-react';
 import { Card } from '@/components/ui/card';
 const preschoolSessions = [
-  { date: 'May 16, 2026', topic: 'Introduction to Optimization Problems and Mathematical Modeling', speaker: 'Shubham Keshri, IIT Kanpur' },
+  { date: 'May 16, 2026', topic: 'Introduction to Optimization Problems and Mathematical Modeling', speaker: 'Simran Lakhani, IIT Bombay' },
   { date: 'May 17, 2026', topic: 'Python and Gurobi Installation', speaker: 'Saurabh Chandra, IIM Indore' },
   { date: 'May 22, 2026', topic: 'Heuristics', speaker: 'Reshma Chandrasekharan, IIM Bangalore' },
-  { date: 'May 23, 2026', topic: 'Introduction to Linear Programming and the Simplex Method', speaker: 'Simran Lakhani, IIT Bombay' },
+  { date: 'May 23, 2026', topic: 'Introduction to Linear Programming and the Simplex Method', speaker: 'Shubham Keshri, IIT Kanpur' },
   { date: 'May 24, 2026', topic: 'Linear Programming Duality', speaker: 'Yogesh Agarwal, IIM Lucknow' },
   { date: 'May 26, 2026', topic: 'Sequential Decision Making', speaker: 'Amber Srivastava, IIT Delhi' },
 ];
