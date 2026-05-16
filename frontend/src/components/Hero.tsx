@@ -89,6 +89,7 @@ const Hero = () => {
               className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 sm:gap-5 animate-fade-up pt-2"
               style={{ animationDelay: '0.3s' }}
             >
+              {/*}
               <Button
                 size="lg"
                 className="w-full sm:w-auto bg-red-600 hover:bg-red-500 text-white font-semibold px-8 shadow-lg shadow-red-900/30"
@@ -102,6 +103,7 @@ const Hero = () => {
                   <ArrowRight className="w-5 h-5" />
                 </a>
               </Button>
+              */}
 
               <Button
                 size="lg"

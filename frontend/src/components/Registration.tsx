@@ -65,16 +65,16 @@ const Registration = () => {
               Registration includes participation in all sessions, course materials, certificate, and lunch/refreshments during the program. It does not include accommodation, travel, breakfast, and dinner.
             </p>
             <Card className="p-6 mb-6 border-destructive/50 bg-destructive/5">
-              <h4 className="font-bold text-destructive mb-2">Registration has started! </h4>
+              <h4 className="font-bold text-destructive mb-2">Registrations are closed. </h4>
 
 
 
 
               <p className="text-sm text-muted-foreground mt-4">
-                Early bird registration closes on <span className='font-bold'>30 April 2026.</span>
+                Early bird registration closed on <span className='font-bold'>30 April 2026.</span>
               </p>
               <p className="text-sm text-muted-foreground mt-4">
-                Late registration closes on <span className='font-bold'>15 May 2026.</span>
+                Late registration closed on <span className='font-bold'>15 May 2026.</span>
               </p>
             </Card>
 
@@ -142,7 +142,10 @@ const Registration = () => {
               # If an institution or organization sends more than 20 participants, they can avail of a 15% discount on the existing fee. For group registrations, please write an email to <a href="mailto:lso2026@admin.iitd.ac.in" className="text-blue-500 hover:underline">lso2026@admin.iitd.ac.in</a>.
             </p>
             {/* CTA */}
+            
             <div className="pt-4">
+              <b>Registration closed on 15 May 2026.</b>
+              {/*
               <Button
                 size="lg"
                 className="bg-red-500 hover:bg-red-400 text-accent-foreground font-semibold shadow-glow"
@@ -152,7 +155,9 @@ const Registration = () => {
                   Register Now
                 </a>
               </Button>
+              */}
             </div>
+            
             <div className="grid md:grid-cols-1 gap-8 mb-12">
               <Card className="p-6 mt-12">
 
