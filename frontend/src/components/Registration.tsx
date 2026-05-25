@@ -65,7 +65,8 @@ const Registration = () => {
               Registration includes participation in all sessions, course materials, certificate, and lunch/refreshments during the program. It does not include accommodation, travel, breakfast, and dinner.
             </p>
             <Card className="p-6 mb-6 border-destructive/50 bg-destructive/5">
-              <h4 className="font-bold text-destructive mb-2">Registrations are closed. </h4>
+              <h4 className="font-bold text-destructive mb-2">Registrations has started. </h4>
+              {/* <h4 className="font-bold text-destructive mb-2">Registrations are closed. </h4> */}
 
 
 
@@ -74,7 +75,9 @@ const Registration = () => {
                 Early bird registration closed on <span className='font-bold'>30 April 2026.</span>
               </p>
               <p className="text-sm text-muted-foreground mt-4">
-                Late registration closed on <span className='font-bold'>15 May 2026.</span>
+                Late registration Deadline <span className='font-bold'>(until 26th May 2026, Time: 02: 59 PM )</span>
+
+                {/* Late registration closed on <span className='font-bold'>15 May 2026.</span> */}
               </p>
             </Card>
 
@@ -117,7 +120,7 @@ const Registration = () => {
                   <tr className="border-b border-border">
                     <th className="text-left py-3 font-semibold">Category</th>
                     <th className="text-right py-3 font-semibold"> Early Bird Fee (in rupees) <br></br>(<s className="text-muted-foreground decoration-red-500">until 28 March 2026</s> <span className="text-black font-semibold">until 30 April 2026</span>)</th>
-                    <th className="text-right py-3 font-semibold">    Late Fee (in rupees)<br></br>(<s className="text-muted-foreground decoration-red-500">until 15 April 2026 </s> <span className="text-black font-semibold">until 15 May 2026 </span>)</th>
+                    <th className="text-right py-3 font-semibold">    Late Fee (in rupees)<br></br>(<s className="text-muted-foreground decoration-red-500">until 15 April 2026 </s> <span className="text-black font-semibold">until 26 May 2026 </span>)</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -142,10 +145,10 @@ const Registration = () => {
               # If an institution or organization sends more than 20 participants, they can avail of a 15% discount on the existing fee. For group registrations, please write an email to <a href="mailto:lso2026@admin.iitd.ac.in" className="text-blue-500 hover:underline">lso2026@admin.iitd.ac.in</a>.
             </p>
             {/* CTA */}
-            
+
             <div className="pt-4">
-              <b>Registration closed on 15 May 2026.</b>
-              {/*
+              <b>Late registration Deadline (until 26th May 2026, Time: 02: 59 PM )</b>
+
               <Button
                 size="lg"
                 className="bg-red-500 hover:bg-red-400 text-accent-foreground font-semibold shadow-glow"
@@ -155,16 +158,16 @@ const Registration = () => {
                   Register Now
                 </a>
               </Button>
-              */}
+
             </div>
-            
+
             <div className="grid md:grid-cols-1 gap-8 mb-12">
               <Card className="p-6 mt-12">
 
 
                 <p className="text-muted-foreground">
-                  For any queries regarding registration and payment, please contact: <a href="mailto:cepaccounts@admin.iitd.ac.in" className="text-red-500 hover:underline">cepaccounts@admin.iitd.ac.in</a> copying 
-                  <a href="mailto:cepiitd@admin.iitd.ac.in" className="text-red-500 hover:underline"> cepiitd@admin.iitd.ac.in</a> and 
+                  For any queries regarding registration and payment, please contact: <a href="mailto:cepaccounts@admin.iitd.ac.in" className="text-red-500 hover:underline">cepaccounts@admin.iitd.ac.in</a> copying
+                  <a href="mailto:cepiitd@admin.iitd.ac.in" className="text-red-500 hover:underline"> cepiitd@admin.iitd.ac.in</a> and
                   <a href="mailto:lso2026@admin.iitd.ac.in" className="text-red-500 hover:underline"> lso2026@admin.iitd.ac.in</a>
                 </p>
               </Card>
@@ -188,7 +191,7 @@ const Registration = () => {
           </Accordion>
         </div>
       </div>
-    </section>
+    </section >
   );
 };
 
