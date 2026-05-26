@@ -65,8 +65,8 @@ const Registration = () => {
               Registration includes participation in all sessions, course materials, certificate, and lunch/refreshments during the program. It does not include accommodation, travel, breakfast, and dinner.
             </p>
             <Card className="p-6 mb-6 border-destructive/50 bg-destructive/5">
-              <h4 className="font-bold text-destructive mb-2">Registrations has started. </h4>
-              {/* <h4 className="font-bold text-destructive mb-2">Registrations are closed. </h4> */}
+              {/* <h4 className="font-bold text-destructive mb-2">Registrations has started. </h4> */}
+              <h4 className="font-bold text-destructive mb-2">Registrations are closed. </h4>
 
 
 
@@ -75,9 +75,9 @@ const Registration = () => {
                 Early bird registration closed on <span className='font-bold'>30 April 2026.</span>
               </p>
               <p className="text-sm text-muted-foreground mt-4">
-                Late registration Deadline <span className='font-bold'>(until 26th May 2026, Time: 02: 59 PM )</span>
+                {/* Late registration Deadline <span className='font-bold'>(until 26th May 2026, Time: 02: 59 PM )</span> */}
 
-                {/* Late registration closed on <span className='font-bold'>15 May 2026.</span> */}
+                Late registration closed on <span className='font-bold'>26 May 2026.</span>
               </p>
             </Card>
 
@@ -146,7 +146,7 @@ const Registration = () => {
             </p>
             {/* CTA */}
 
-            <div className="pt-4">
+            {/* <div className="pt-4">
               <b>Late registration Deadline (until 26th May 2026, Time: 02: 59 PM )</b>
 
               <Button
@@ -157,9 +157,9 @@ const Registration = () => {
                 <a href="https://cepqip.iitd.ac.in/post/program/large-scale-optimization-summer-school">
                   Register Now
                 </a>
-              </Button>
+              </Button> */}
 
-            </div>
+            {/* </div> */}
 
             <div className="grid md:grid-cols-1 gap-8 mb-12">
               <Card className="p-6 mt-12">

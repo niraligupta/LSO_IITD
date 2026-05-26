@@ -95,13 +95,13 @@ const Hero = () => {
                 className="w-full sm:w-auto bg-red-600 hover:bg-red-500 text-white font-semibold px-8 shadow-lg shadow-red-900/30"
                 asChild
               >
-                <a
+                {/* <a
                   href="https://cepqip.iitd.ac.in/post/program/large-scale-optimization-summer-school"
                   className="inline-flex items-center justify-center gap-2"
                 >
                   Register Now
                   <ArrowRight className="w-5 h-5" />
-                </a>
+                </a> */}
               </Button>
 
 
