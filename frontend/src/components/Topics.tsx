@@ -15,7 +15,6 @@ const topics = [
   'Robust Optimization',
   'Column Generation',
   'Lagrangian Relaxation',
-
 ];
 
 const audiences = [
