@@ -52,7 +52,20 @@ const About = () => {
             <div className="relative geometric-accent">
               <div className="  shadow-soft ">
                 <img
-                  src="/images/logo_lso.png"
+                  src="/images/New_lso_logo.png"
+                  // src="/images/logo_lso.png"
+                  alt="LSO 2026 Logo"
+                  className="w-full h-auto max-w-[450px] mx-auto"
+                />
+              </div>
+
+            </div>
+
+            <div className="relative geometric-accent">
+              <div className="  shadow-soft ">
+                <img
+                  src="/images/ANRF_logo_bg.png"
+                  // src="/images/logo_lso.png"
                   alt="LSO 2026 Logo"
                   className="w-full h-auto max-w-[450px] mx-auto"
                 />
@@ -61,7 +74,7 @@ const About = () => {
             </div>
 
             {/* Target Audience */}
-            <div className="bg-secondary/50 rounded-2xl p-6 border border-border">
+            {/* <div className="bg-secondary/50 rounded-2xl p-6 border border-border">
               <h3 className="font-display font-semibold text-foreground mb-4">
                 Who Should Attend?
               </h3>
@@ -76,7 +89,7 @@ const About = () => {
                   </div>
                 ))}
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* Right - Details */}
@@ -99,6 +112,23 @@ const About = () => {
               </div>
             </div>
 
+            {/* Target Audience */}
+            <div className="bg-secondary/50 rounded-2xl p-6 border border-border">
+              <h3 className="font-display font-semibold text-foreground mb-4">
+                Who Should Attend?
+              </h3>
+              <div className="grid grid-cols-2 gap-3">
+                {targetAudience.map((item) => (
+                  <div
+                    key={item.label}
+                    className="flex items-center gap-2 text-base text-muted-foreground"
+                  >
+                    <item.icon className="w-4 h-4 text-red-500 flex-shrink-0" />
+                    <span>{item.label}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
             {/* Past Editions Timeline */}
             <div className="space-y-4">
               <h3 className="font-display font-semibold text-xl text-foreground">
