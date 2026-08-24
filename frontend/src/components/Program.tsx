@@ -18,7 +18,7 @@ const Program = () => {
     const fetchSheet = async () => {
       try {
         const res = await fetch(
-          "https://sheets.googleapis.com/v4/spreadsheets/1ZZ17QNHS1MtRENhgHI8nvQE4ISM4qSK86QFC4zFS7FU/values/LSO2026%20Tentative%20Programme?key=AIzaSyA7PazN3OYJAeiYq0bZZAWY7_4wMUGoyWs"
+          "your-google-sheet-api-endpoint"
         );
 
         const data = await res.json();
