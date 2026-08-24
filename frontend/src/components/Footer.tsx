@@ -2,15 +2,9 @@ const Footer = () => {
   return (
     <footer className="relative bg-[#041826] text-white overflow-hidden">
 
-      {/* Top Gradient Line */}
       <div className="h-1 w-full bg-gradient-to-r from-cyan-400 via-blue-500 to-cyan-300"></div>
-
       <div className="section-container py-14">
-
-        {/* Main Footer Content */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
-
-          {/* Left Section */}
           <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
             <div className="flex items-center gap-4 mb-5">
               <img

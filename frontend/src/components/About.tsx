@@ -73,26 +73,10 @@ const About = () => {
 
             </div>
 
-            {/* Target Audience */}
-            {/* <div className="bg-secondary/50 rounded-2xl p-6 border border-border">
-              <h3 className="font-display font-semibold text-foreground mb-4">
-                Who Should Attend?
-              </h3>
-              <div className="grid grid-cols-2 gap-3">
-                {targetAudience.map((item) => (
-                  <div
-                    key={item.label}
-                    className="flex items-center gap-2 text-base text-muted-foreground"
-                  >
-                    <item.icon className="w-4 h-4 text-red-500 flex-shrink-0" />
-                    <span>{item.label}</span>
-                  </div>
-                ))}
-              </div>
-            </div> */}
+
           </div>
 
-          {/* Right - Details */}
+
           <div className="lg:col-span-3 space-y-8">
             {/* Topics covered */}
             <div className="space-y-4">

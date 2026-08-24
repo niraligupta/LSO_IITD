@@ -14,7 +14,6 @@ const Index = () => {
     <div className="min-h-screen">
       <Navbar />
       <Hero />
-      {/* <SupportedBy /> */}
       <About />
       <ImportantDates />
       <Topics />
@@ -24,7 +23,6 @@ const Index = () => {
       <Venue />
       <CoreTeam />
       <Footer />
-      {/* <Login /> */}
     </div>
   );
 };

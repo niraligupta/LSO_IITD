@@ -41,7 +41,6 @@ const Hero = () => {
         }}
       />
 
-      {/* Overlays */}
       <div className="absolute inset-0 hero-overlay" />
 
       {/* Floating shapes */}
@@ -58,9 +57,9 @@ const Hero = () => {
       {/* Main Content */}
       <div className="relative z-10 section-container min-h-screen flex flex-col justify-center py-24">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
-          {/* Left */}
+
           <div className="space-y-8">
-            {/* Badge */}
+
             <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full  border border-red-400 backdrop-blur-sm animate-fade-up">
               <Calendar className="w-4 h-4 text-red-500" />
               <span className="text-xl font-medium text-primary-foreground">
@@ -94,7 +93,6 @@ const Hero = () => {
               Join India&apos;s premier optimization community for a week of intensive learning.
             </p>
 
-            {/* CTA */}
             <div
               className="flex items-center gap-4 animate-fade-up"
               style={{ animationDelay: '0.3s' }}

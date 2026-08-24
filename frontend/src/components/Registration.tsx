@@ -144,7 +144,7 @@ const Registration = () => {
             <p className="text-sm text-blue-500 mb-8">
               # If an institution or organization sends more than 20 participants, they can avail of a 15% discount on the existing fee. For group registrations, please write an email to <a href="mailto:lso2026@admin.iitd.ac.in" className="text-blue-500 hover:underline">lso2026@admin.iitd.ac.in</a>.
             </p>
-            {/* CTA */}
+
 
             {/* <div className="pt-4">
               <b>Late registration Deadline (until 26th May 2026, Time: 02: 59 PM )</b>
